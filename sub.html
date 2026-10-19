@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#07080a">
+<meta name="robots" content="noindex,nofollow">
+<title>Super JinX | اشتراک من</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2716%27 fill=%27%23f5c451%27/%3E%3Ctext x=%2732%27 y=%2745%27 font-size=%2738%27 font-family=%27Georgia%27 font-style=%27italic%27 font-weight=%27700%27 text-anchor=%27middle%27 fill=%27%231a1204%27%3EJ%3C/text%3E%3C/svg%3E">
+<script id="jx-data" type="application/json">{{ {
+  "username": (user.username if user and user.username is defined else ""),
+  "status": ((user.status.value if user.status.value is defined else user.status|string) if user and user.status is defined and user.status else "active"),
+  "used": ((user.used_traffic or 0) if user else 0),
+  "limit": ((user.data_limit or 0) if user else 0),
+  "expire": (((user.expire.timestamp()|int) if user.expire.timestamp is defined else (user.expire|int)) if user and user.expire else 0),
+  "links": (links if links is defined and links else []),
+  "announce": (announce if announce is defined and announce else "")
+} | tojson }}</script>
+<!-- {% raw %} -->
+<script>var JX_DEFAULT_THEME="gold";try{var _n=navigator,_l=(_n.deviceMemory&&_n.deviceMemory<=3)||(_n.hardwareConcurrency&&_n.hardwareConcurrency<=4)||/Android [4-8]\./.test(_n.userAgent);if(_l)document.documentElement.classList.add("lite")}catch(e){}
+try{var _t=localStorage.getItem("jx_theme")||JX_DEFAULT_THEME;if(_t&&_t!=="lime")document.documentElement.setAttribute("data-theme",_t)}catch(e){}</script>
+<style>
+:root{--ac:#c6ff3d;--acr:198,255,61;--ac3:#3df5c8;--ac3r:61,245,200;--ac2:#9d7bff;--ac2r:157,123,255;--acl:#e4ff9a;--acd:#8fd400;--aci:#0a0b08;--bg:#07080a;--bgr:7,8,10;--bg2:#08090b;--c1:#0e1013;--c2:#14171b;--mu:#8a9087;--ok:var(--ac);--ln:rgba(255,255,255,.075);--tx:#f4f6f1;--am:#ffc53d;--rd:#ff5a5f;--tg:#2aabee;--e:cubic-bezier(.2,.8,.2,1);--sp:cubic-bezier(.34,1.56,.64,1)}
+html[data-theme="gold"]{--ac:#f5c451;--acr:245,196,81;--ac3:#ff9a4d;--ac3r:255,154,77;--ac2:#e8d9b5;--ac2r:232,217,181;--acl:#ffe7a8;--acd:#c8901f;--aci:#1a1204;--bg:#090705;--bgr:9,7,5;--bg2:#0b0907;--c1:#120f0a;--c2:#1a160f;--mu:#968c7b}
+html[data-theme="violet"]{--ac:#c084fc;--acr:192,132,252;--ac3:#f472b6;--ac3r:244,114,182;--ac2:#60a5fa;--ac2r:96,165,250;--acl:#e6ccff;--acd:#9355e0;--aci:#14061f;--bg:#07061a;--bgr:7,6,26;--bg2:#090820;--c1:#100d24;--c2:#17132f;--mu:#938cb3}
+html[data-theme="ice"]{--ac:#5eead4;--acr:94,234,212;--ac3:#38bdf8;--ac3r:56,189,248;--ac2:#a78bfa;--ac2r:167,139,250;--acl:#b8fff3;--acd:#14b8a6;--aci:#03201c;--bg:#05090c;--bgr:5,9,12;--bg2:#060c10;--c1:#0b1318;--c2:#101b21;--mu:#829aa0}
+
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{overflow-x:hidden}html,body{max-width:100%;background:var(--bg)}body{overflow-x:clip}
+body{min-height:100vh;min-height:100dvh;color:var(--tx);font-family:Vazirmatn,"Vazir","IRANSansX","Noto Sans Arabic",Tahoma,"Segoe UI",system-ui,sans-serif;font-size:14px;line-height:1.7;-webkit-font-smoothing:antialiased}
+button,input{font:inherit;color:inherit;background:none;border:0;outline:0}button{cursor:pointer}a{color:inherit;text-decoration:none}
+svg{display:block}.ic{width:18px;height:18px;flex-shrink:0}
+.lat{font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;direction:ltr;unicode-bidi:isolate}
+.mono{font-family:ui-monospace,"SF Mono",Consolas,Menlo,monospace;direction:ltr;unicode-bidi:isolate}
+.hide{display:none!important}
+.demo{margin:0 0 10px;padding:8px 12px;border-radius:12px;text-align:center;white-space:normal!important;background:#ffc53d;color:#1a1300;font-size:11.5px;font-weight:900;white-space:nowrap;box-shadow:0 8px 20px -8px rgba(255,197,61,.8)}
+/* background */
+.bgx{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.bgx::after{content:"";position:absolute;inset:0;opacity:.05;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.bgx .grid{position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.09) 1px,transparent 1.2px);background-size:24px 24px;-webkit-mask:radial-gradient(90% 60% at 50% 0%,#000 20%,transparent 75%);mask:radial-gradient(90% 60% at 50% 0%,#000 20%,transparent 75%)}
+.bgx .g1,.bgx .g2,.bgx .floor{position:absolute;left:-50%;right:-50%;bottom:0;height:42vh;perspective:340px;-webkit-mask:linear-gradient(to top,rgba(0,0,0,.9),transparent 85%);mask:linear-gradient(to top,rgba(0,0,0,.9),transparent 85%);overflow:hidden}
+.bgx .floor i{position:absolute;left:0;right:0;top:0;height:200%;transform-origin:50% 0;transform:rotateX(72deg);background-image:linear-gradient(rgba(var(--acr),.22) 1px,transparent 1px),linear-gradient(90deg,rgba(var(--acr),.14) 1px,transparent 1px);background-size:56px 56px;animation:flr 3.2s linear infinite;will-change:transform}
+@keyframes flr{from{transform:rotateX(72deg) translateY(0)}to{transform:rotateX(72deg) translateY(56px)}}
+.bgx .g3{will-change:transform}
+.bgx .g1{animation:dr1 22s ease-in-out infinite alternate;position:absolute;width:620px;height:620px;top:-330px;right:-160px;border-radius:50%;background:radial-gradient(circle,rgba(var(--acr),.16),transparent 65%)}
+.bgx .g3{position:absolute;width:420px;height:420px;top:30%;left:55%;border-radius:50%;background:radial-gradient(circle,rgba(var(--ac3r),.07),transparent 65%);animation:dr1 28s ease-in-out infinite alternate-reverse}
+@keyframes dr1{to{transform:translate(-90px,70px) scale(1.15)}}@keyframes dr2{to{transform:translate(110px,-60px) scale(1.1)}}
+.bgx .g2{animation:dr2 26s ease-in-out infinite alternate;position:absolute;width:640px;height:640px;bottom:-360px;left:-220px;border-radius:50%;background:radial-gradient(circle,rgba(var(--ac2r),.17),transparent 65%)}
+#spot{position:fixed;left:0;top:0;width:560px;height:560px;margin:-280px 0 0 -280px;border-radius:50%;background:radial-gradient(circle,rgba(var(--acr),.07),transparent 60%);pointer-events:none;z-index:1;opacity:0;transition:opacity .4s;will-change:transform}
+/* intro */
+#intro{position:fixed;inset:0;z-index:999;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;transition:opacity .55s,visibility .55s}
+#intro.out{opacity:0;visibility:hidden}
+#intro .ring{position:relative;width:110px;height:110px}
+#intro .ring svg{position:absolute;inset:0;width:100%;height:100%;animation:rot 1.6s linear infinite}
+#intro .ring circle{fill:none;stroke:var(--ac);stroke-width:3;stroke-linecap:round;stroke-dasharray:60 300;filter:drop-shadow(0 0 8px rgba(var(--acr),.8))}
+#intro .ring b{position:absolute;inset:0;display:grid;place-items:center;font:900 46px "Segoe UI",Arial,sans-serif;color:var(--ac);opacity:0;transform:scale(.4);animation:pp .6s .5s var(--sp) forwards}
+#intro .nm{direction:ltr;font:800 13px "Segoe UI",Arial,sans-serif;letter-spacing:9px;color:#cfd3cb;overflow:hidden;white-space:nowrap}
+#intro .nm span{display:inline-block;transform:translateY(110%);animation:upq .6s .75s var(--e) forwards}
+@keyframes upq{to{transform:none}}@keyframes pp{to{opacity:1;transform:none}}
+/* layout */
+.app{position:relative;z-index:2;max-width:520px;margin:0 auto;padding:max(2px,env(safe-area-inset-top)) 12px calc(118px + env(safe-area-inset-bottom))}
+.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:11px;margin:0 -12px 0;padding:8px 14px 10px;transition:background .3s,box-shadow .3s,padding .3s}
+.top.sc{background:var(--bg);box-shadow:0 1px 0 rgba(255,255,255,.06),0 10px 30px -12px rgba(0,0,0,.9);padding-top:max(8px,env(safe-area-inset-top))}
+.top.sc .logo{transform:scale(.9)}
+.logo{position:relative;width:44px;height:44px;border-radius:14px;background:linear-gradient(135deg,var(--acl) 0%,var(--ac) 42%,var(--acl) 58%,var(--acd) 100%);color:var(--aci);display:grid;place-items:center;font:italic 700 25px Georgia,"Times New Roman",serif;box-shadow:0 0 0 1px rgba(255,255,255,.18) inset,0 0 0 4px rgba(var(--acr),.10),0 12px 30px -10px rgba(var(--acr),.7);transition:transform .25s var(--sp);flex-shrink:0;text-shadow:0 1px 0 rgba(255,255,255,.35)}
+.lgb{position:absolute;bottom:-5px;left:-5px;width:20px;height:20px;border-radius:50%;background:var(--c2);border:1.5px solid rgba(var(--acr),.5);display:grid;place-items:center;color:var(--ac);box-shadow:0 3px 8px rgba(0,0,0,.5)}
+.lgb .ic{width:11px;height:11px}
+.logo{overflow:visible!important}
+.logo:active{transform:scale(.88) rotate(-8deg)}
+.brand b{display:block;font:800 14.5px "Segoe UI",Arial,sans-serif;direction:ltr;text-align:right;letter-spacing:3.2px;text-transform:uppercase;background:linear-gradient(90deg,#fff,var(--acl));-webkit-background-clip:text;background-clip:text;color:transparent}
+.brand small{display:block;font-size:11px;color:var(--mu);line-height:1.5;letter-spacing:.2px}
+/* dynamic island */
+.isl{position:relative;margin-inline-start:auto;display:inline-flex;align-items:center;gap:9px;height:46px;padding:0 6px 0 14px;border-radius:999px;background:#000;border:1px solid rgba(255,255,255,.1);box-shadow:0 10px 30px -10px rgba(0,0,0,.9),0 0 0 0 rgba(42,171,238,0);transition:box-shadow .5s,border-color .5s,transform .25s var(--sp),padding .5s var(--sp);flex-shrink:0;-webkit-user-select:none;user-select:none;isolation:isolate}
+.isl::before{content:"";position:absolute;inset:-1px;border-radius:inherit;padding:1px;background:linear-gradient(90deg,rgba(42,171,238,.15),rgba(42,171,238,.9),rgba(42,171,238,.15));-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;animation:isb 3s ease-in-out infinite;pointer-events:none;will-change:opacity}
+@keyframes isb{0%,100%{opacity:.35}50%{opacity:1}}
+.isl:active{transform:scale(.95)}
+.isl.ex{border-color:rgba(42,171,238,.5);box-shadow:0 14px 34px -10px rgba(42,171,238,.6),0 0 0 4px rgba(42,171,238,.08);padding-left:10px}
+.isl-ic{position:relative;width:34px;height:34px;border-radius:50%;background:linear-gradient(180deg,#37BBFE,#1d8fd6);display:grid;place-items:center;color:#fff;flex-shrink:0;box-shadow:0 0 14px -2px rgba(42,171,238,.9),inset 0 1px 0 rgba(255,255,255,.4);transition:transform .5s var(--sp)}
+.isl-ic .ic{width:18px;height:18px;margin-left:-2px;animation:plf 5s 2.6s var(--e) infinite}
+.isl.ex .isl-ic{transform:rotate(-12deg) scale(1.05)}
+.isl-txt{display:grid;max-width:66px;overflow:hidden;transition:max-width .6s var(--sp)}
+.isl.ex .isl-txt{max-width:170px}
+.isl-a,.isl-b{grid-area:1/1;display:flex;flex-direction:column;line-height:1.25;white-space:nowrap;transition:opacity .35s,transform .45s var(--e)}
+.isl-a small,.isl-b small{font-size:10px;font-weight:700;color:#8fbcd6}
+.isl-a b{font-size:13.5px;font-weight:900;color:#fff}
+.isl-b b{font-size:12.5px;font-weight:900;background:linear-gradient(90deg,#fff,#9be3ff,var(--ac));-webkit-background-clip:text;background-clip:text;color:transparent}
+.isl-b{opacity:0;transform:translateY(10px)}
+.isl.ex .isl-a{opacity:0;transform:translateY(-10px)}
+.isl.ex .isl-b{opacity:1;transform:none;transition-delay:.12s}
+.isl-w{display:flex;align-items:center;gap:2px;width:0;height:18px;overflow:hidden;opacity:0;transition:width .5s var(--sp),opacity .3s}
+.isl.ex .isl-w{width:20px;opacity:1}
+.isl-w i{width:3px;border-radius:2px;background:#2aabee;animation:wvb .9s ease-in-out infinite}
+.isl-w i:nth-child(1){height:8px}.isl-w i:nth-child(2){height:16px;animation-delay:.15s}.isl-w i:nth-child(3){height:11px;animation-delay:.3s}.isl-w i:nth-child(4){height:6px;animation-delay:.45s;background:var(--ac)}
+@keyframes wvb{50%{transform:scaleY(.4)}}
+.isl.go .isl-ic .ic{animation:plgo .5s var(--e) forwards}
+.brand{min-width:0}.brand b{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media(max-width:440px){.brand b{letter-spacing:1.6px;font-size:13.5px}.isl.ex .isl-txt{max-width:132px}.isl.ex .isl-w{display:none}}
+@media(max-width:380px){.isl.ex .isl-txt{max-width:118px}.isl-b b{font-size:11.5px}.isl.ex .isl-w{display:none}.isl.ex .brand small{display:none}}
+@media(max-width:350px){.brand b{letter-spacing:.8px;font-size:12.5px}.top .brand small{display:none}.isl-a small{display:none}}
+/* telegram button */
+.tgb{position:relative;margin-inline-start:auto;display:inline-flex;align-items:center;gap:9px;height:46px;padding:0 5px 0 16px;border-radius:999px;overflow:hidden;isolation:isolate;background:linear-gradient(135deg,#3cc0ff 0%,#2AABEE 40%,#1b7fd4 100%);color:#fff;box-shadow:0 12px 28px -12px rgba(42,171,238,1),inset 0 1px 0 rgba(255,255,255,.45),inset 0 -2px 6px rgba(0,40,90,.25);-webkit-user-select:none;user-select:none;transition:transform .25s var(--sp),box-shadow .3s;flex-shrink:0}
+.tgb::before{content:"";position:absolute;top:0;left:-70%;width:45%;height:100%;z-index:-1;background:linear-gradient(90deg,transparent,rgba(255,255,255,.55),transparent);transform:skewX(-20deg);animation:sw 3.2s 2s infinite}
+.tgb::after{content:"";position:absolute;inset:0;z-index:-2;background:radial-gradient(80% 120% at 20% 0%,rgba(255,255,255,.25),transparent 60%)}
+.tgb:active{transform:scale(.94)}
+@media(hover:hover){.tgb:hover{box-shadow:0 16px 34px -10px rgba(42,171,238,1),inset 0 1px 0 rgba(255,255,255,.5)}}
+.tgb-c{position:relative;width:36px;height:36px;border-radius:50%;background:#fff;display:grid;place-items:center;color:#229ED9;flex-shrink:0;box-shadow:0 4px 10px -3px rgba(0,40,90,.5)}
+.tgb-c .ic{width:19px;height:19px;margin-left:-2px;animation:plf 5s 2.6s var(--e) infinite}
+.tgb-c::before{content:"";position:absolute;inset:-4px;border-radius:50%;border:2px solid rgba(255,255,255,.7);animation:png 2.2s ease-out infinite}
+.tgb-t{display:flex;flex-direction:column;line-height:1.2;white-space:nowrap}
+.tgb-t small{font-size:10px;font-weight:700;color:rgba(255,255,255,.8)}
+.tgb-t b{font-size:13.5px;font-weight:900;text-shadow:0 1px 2px rgba(0,40,90,.35)}
+@keyframes plf{0%,58%{transform:none;opacity:1}68%{transform:translate(18px,-18px) scale(.6);opacity:0}69%{transform:translate(-18px,18px) scale(.6);opacity:0}82%{transform:translate(1px,-1px);opacity:1}88%,100%{transform:none;opacity:1}}
+.tgb.go .tgb-c .ic{animation:plgo .5s var(--e) forwards}
+@keyframes plgo{to{transform:translate(24px,-24px) scale(.5);opacity:0}}
+.tgx-ub{position:absolute;top:-5px;right:-6px;z-index:3;min-width:19px;height:19px;padding:0 5px;border-radius:10px;background:linear-gradient(180deg,#ff6b6f,#e5383d);color:#fff;font-size:11px;font-weight:900;line-height:19px;text-align:center;border:2px solid #000;box-shadow:0 4px 10px -2px rgba(229,56,61,.8);animation:ubp .5s 2.2s var(--sp) backwards}
+@keyframes ubp{from{transform:scale(0)}to{transform:none}}
+.tgx-ball{animation:wig 7s 4s ease-in-out infinite}
+@keyframes wig{0%,90%,100%{transform:none}92%{transform:rotate(-12deg)}94%{transform:rotate(10deg)}96%{transform:rotate(-6deg)}98%{transform:rotate(3deg)}}
+.tgx-t{display:flex;flex-direction:column;line-height:1.25;white-space:nowrap}
+.tgx-t b{font-size:13.5px;font-weight:900;background:linear-gradient(90deg,#ffffff,#9be3ff 40%,var(--ac) 60%,#ffffff);background-size:220% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:txs 3.5s linear infinite}
+@keyframes txs{to{background-position:-220% 0}}
+.tgx-t small{display:flex;align-items:center;gap:5px;font-size:10.5px;font-weight:800;color:#8ccbea}
+.tgx-t small i{width:6px;height:6px;border-radius:50%;background:var(--ac);box-shadow:0 0 8px var(--ac);animation:bk 1.2s infinite}
+.tgx.go .tgx-ball .pl{animation:plgo .5s var(--e) forwards}
+@keyframes plgo{to{transform:translate(30px,-30px) scale(.5);opacity:0}}
+.tgx.go .tgx-halo{animation:hgo .6s ease-out}
+@keyframes hgo{from{transform:scale(1);opacity:1}to{transform:scale(2.4);opacity:0}}
+@media(max-width:350px){.tgx-t small{display:none}.tgx{padding-inline-end:13px}}
+.tgp{margin-inline-start:auto;position:relative;display:inline-flex;align-items:center;gap:9px;height:44px;padding:0 6px 0 15px;border-radius:999px;background:linear-gradient(135deg,rgba(42,171,238,.22),rgba(42,171,238,.06));border:1px solid rgba(42,171,238,.45);font-size:13px;font-weight:900;color:#e3f5ff;white-space:nowrap;box-shadow:0 10px 26px -14px rgba(42,171,238,1),inset 0 1px 0 rgba(255,255,255,.08);transition:transform .2s var(--sp)}
+.tgp:active{transform:scale(.94)}
+.tgo2{position:relative;width:32px;height:32px;border-radius:50%;background:linear-gradient(180deg,#37BBFE,#007DBB);display:grid;place-items:center;color:#fff;box-shadow:0 0 0 3px rgba(42,171,238,.18),0 6px 16px -4px rgba(42,171,238,.95);flex-shrink:0}
+.tgo2 .clip{position:absolute;inset:0;border-radius:50%;overflow:hidden;display:grid;place-items:center}
+.tgo2 .ic{width:17px;height:17px;margin-left:-2px;animation:fly 4.2s var(--e) infinite}
+@keyframes fly{0%,64%{transform:none;opacity:1}74%{transform:translate(16px,-16px) scale(.7);opacity:0}75%{transform:translate(-16px,16px) scale(.7);opacity:0}88%,100%{transform:none;opacity:1}}
+.tgo2::before{content:"";position:absolute;inset:-1px;border-radius:50%;border:1.5px solid rgba(55,187,254,.8);animation:png 2.4s ease-out infinite}
+.tgo2::after{content:"";position:absolute;top:-2px;right:-2px;width:10px;height:10px;border-radius:50%;background:var(--ac);border:2px solid var(--bg);box-shadow:0 0 8px var(--ac)}
+@keyframes bk{50%{opacity:.25}}@keyframes rot{to{transform:rotate(360deg)}}
+/* avatar */
+.jav{display:block;position:relative;width:44px;height:44px;flex-shrink:0;--rb:var(--c1)}
+.jav .jr{position:absolute;inset:-5px;width:calc(100% + 10px);height:calc(100% + 10px);animation:rot 9s linear infinite;filter:drop-shadow(0 0 4px rgba(var(--ac3r),.45))}
+.jav .ji{position:absolute;inset:1.5px;border-radius:50%;background:radial-gradient(circle at 32% 25%,var(--acl),var(--ac) 42%,var(--acd));display:grid;place-items:center;font:900 19px "Segoe UI",Arial,sans-serif;color:var(--aci);box-shadow:inset 0 -4px 10px rgba(0,0,0,.22),inset 0 2px 3px rgba(255,255,255,.5)}
+.jav .jb{position:absolute;bottom:-4px;left:-4px;width:20px;height:20px;border-radius:50%;background:linear-gradient(180deg,#2AABEE,#229ED9);border:2px solid var(--rb);display:grid;place-items:center;color:#fff}
+.jav .jb .ic{width:11px;height:11px;margin-left:-1px}
+.jav.lg{width:104px;height:104px}.jav.lg .jr{inset:-9px;width:calc(100% + 18px);height:calc(100% + 18px)}.jav.lg .ji{inset:3px;font-size:46px}.jav.lg .jb{width:36px;height:36px;border-width:3px;bottom:-2px;left:-2px}.jav.lg .jb .ic{width:18px;height:18px}
+.ver{width:15px;height:15px;color:#2aabee;flex-shrink:0;display:inline-block;vertical-align:-2px}
+/* news bar */
+.news{position:relative;display:flex;align-items:center;gap:13px;min-height:88px;padding:12px 14px 20px 10px;margin-bottom:10px;border-radius:19px;background:linear-gradient(120deg,rgba(42,171,238,.16),rgba(14,16,19,.92) 52%,rgba(var(--acr),.08));border:1px solid rgba(42,171,238,.28);overflow:hidden;isolation:isolate;box-shadow:0 12px 30px -18px rgba(42,171,238,.7)}
+.news .jav{--rb:#0f1a22}
+.news::after{content:"";position:absolute;width:220px;height:220px;top:-110px;right:-60px;z-index:-1;border-radius:50%;background:radial-gradient(circle,rgba(42,171,238,.28),transparent 65%);animation:dr2 9s ease-in-out infinite alternate;pointer-events:none}
+.news::before{content:"";position:absolute;top:0;bottom:0;left:0;width:40%;z-index:-1;background:linear-gradient(105deg,transparent,rgba(255,255,255,.07),transparent);transform:translateX(-120%);animation:nsh 5.5s linear infinite;will-change:transform}
+@keyframes nsh{from{transform:translateX(-120%)}to{transform:translateX(370%)}}
+.nmid{flex:1;min-width:0}
+.ntop{display:flex;align-items:center;gap:5px;line-height:1.3;white-space:nowrap}
+.ntop .tm{margin-inline-start:auto;font-size:10.5px;color:#7fa9c0;font-weight:700}
+.ntop b{font:800 13px "Segoe UI",Arial,sans-serif;direction:ltr}
+.live{display:inline-flex;align-items:center;gap:4px;margin-inline-start:3px;padding:1px 6px;border-radius:5px;background:rgba(255,90,95,.14);color:#ff7a7e;font:900 9px "Segoe UI",Arial,sans-serif;letter-spacing:1px;direction:ltr}
+.live i{width:5px;height:5px;border-radius:50%;background:#ff5a5f;animation:bk 1s infinite}
+.nw{position:relative;min-height:40px;margin-top:3px}
+.ntx{font-size:12.5px;font-weight:700;line-height:1.65;color:#e2e6dd;transition:opacity .25s,transform .25s}
+.ntx.fade{opacity:0;transform:translateY(-6px)}
+.ntx b{color:var(--ac);font-weight:900}
+.car{display:inline-block;width:2px;height:14px;margin-inline-start:2px;vertical-align:-2px;background:var(--ac);box-shadow:0 0 8px var(--ac);animation:bk .8s steps(1) infinite}
+.typ{position:absolute;top:0;right:0;left:0;height:22px;display:flex;align-items:center;gap:7px;font-size:11.5px;font-weight:700;color:#5cc3f5;opacity:0;transition:opacity .2s}
+.typ.on{opacity:1}
+.dots{display:inline-flex;gap:3px;direction:ltr}
+.dots i{width:5px;height:5px;border-radius:50%;background:currentColor;animation:dt 1s infinite}
+.dots i:nth-child(2){animation-delay:.15s}.dots i:nth-child(3){animation-delay:.3s}
+@keyframes dt{0%,60%,100%{transform:none;opacity:.4}30%{transform:translateY(-3px);opacity:1}}
+.njoin{position:relative;overflow:hidden;display:inline-flex;align-items:center;gap:5px;height:38px;padding:0 14px;border-radius:12px;background:linear-gradient(180deg,#37BBFE,#1d8fd6);color:#fff;font-size:12.5px;font-weight:900;flex-shrink:0;white-space:nowrap;box-shadow:0 8px 20px -8px rgba(42,171,238,1),inset 0 1px 0 rgba(255,255,255,.3)}
+.njoin .ic{width:14px;height:14px}
+@keyframes jp{0%,100%{box-shadow:0 8px 20px -8px rgba(42,171,238,1),inset 0 1px 0 rgba(255,255,255,.3),0 0 0 0 rgba(42,171,238,.5)}50%{box-shadow:0 8px 20px -8px rgba(42,171,238,1),inset 0 1px 0 rgba(255,255,255,.3),0 0 0 6px rgba(42,171,238,0)}}
+.njoin::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.5),transparent);transform:skewX(-20deg);animation:sw 3s 1s infinite}
+.nds{position:absolute;left:12px;right:12px;bottom:3px;height:12px;display:flex;align-items:center;gap:5px;direction:rtl;z-index:2}
+.nds i{position:relative;flex:1;height:3px;border-radius:3px;background:rgba(255,255,255,.09);cursor:pointer;transition:height .2s,background .2s}
+.nds i::before{content:"";position:absolute;left:0;right:0;top:-5px;bottom:-5px}
+.nds i:hover{background:rgba(255,255,255,.18)}
+.nds i b{position:relative;display:block;height:100%;width:0;border-radius:inherit;background:linear-gradient(270deg,#2aabee,var(--ac3) 60%,var(--ac))}
+.nds i.done b{width:100%;background:rgba(var(--acr),.55)}
+.nds i.cur{height:4px}
+.nds i.cur b{animation:npr var(--nd,4.6s) linear forwards;box-shadow:0 0 10px rgba(var(--ac3r),.55)}
+.nds i.cur b::after{content:"";position:absolute;left:-3px;top:50%;width:7px;height:7px;margin-top:-3.5px;border-radius:50%;background:#fff;box-shadow:0 0 8px var(--ac3),0 0 2px #fff}
+.news:hover .nds i.cur b{animation-play-state:paused}
+@media(max-width:400px){.news .njoin{width:40px;padding:0;justify-content:center;font-size:0;gap:0}.news .njoin .ic{width:17px;height:17px}}
+@media(max-width:350px){.live{display:none}}
+/* telegram card */
+.tgc{display:block;padding:14px;background:linear-gradient(160deg,rgba(42,171,238,.13),rgba(14,16,19,.95) 60%);border-color:rgba(42,171,238,.3);overflow:hidden}
+.tgc .jav{--rb:#0f171e}
+.tgh{display:flex;align-items:center;gap:12px}
+.tgn{flex:1;min-width:0}
+.tgn b{display:flex;align-items:center;gap:5px;font:800 14.5px "Segoe UI",Arial,sans-serif;direction:ltr;justify-content:flex-end}
+.tgn small{display:block;font-size:11.5px;color:#8fb3c7;line-height:1.4}
+.bub{position:relative;margin-top:12px;padding:10px 13px 8px;border-radius:17px 17px 5px 17px;background:#182533;border:1px solid rgba(255,255,255,.05);font-size:13px;line-height:1.75;color:#e9eef2;max-width:92%;margin-inline-start:auto}
+.bub .bm{display:flex;align-items:center;justify-content:flex-end;gap:4px;margin-top:2px;font-size:10.5px;color:#6f8ba0;direction:ltr}
+.bub .bm .ic{width:15px;height:15px;color:#5cc3f5}
+.bub b{color:#7fd3ff}
+.ch .chat{display:grid;gap:8px;margin:16px 0 16px;text-align:start}
+.ch .chat .bub{margin:0;max-width:88%;opacity:0;transform:translateY(12px) scale(.95);transform-origin:100% 100%;animation:bubin .5s var(--sp) forwards}
+.ch .chat .bub:nth-child(1){animation-delay:.35s}.ch .chat .bub:nth-child(2){animation-delay:1s}.ch .chat .bub:nth-child(3){animation-delay:1.65s}.ch .chat .bub:nth-child(4){animation-delay:2.3s}
+.ch .chat .bub.tp{padding:12px 16px;width:max-content;color:#5cc3f5}
+@keyframes bubin{to{opacity:1;transform:none}}
+.ch .hd2{display:flex;align-items:center;justify-content:center;gap:6px;margin-top:14px;font:900 21px "Segoe UI",Arial,sans-serif;direction:ltr}
+.ch .hd2 .ver{width:20px;height:20px}
+.ch .hdl{font:700 13px "Segoe UI",Arial,sans-serif;color:#7fc8ee;direction:ltr;margin:0}
+.ch .avw{position:relative;width:104px;height:104px;margin:6px auto 0}
+.ch .avw .w{position:absolute;inset:0;border-radius:50%;border:1.5px solid rgba(42,171,238,.6);animation:wv 2.8s ease-out infinite}
+.ch .avw .w2{animation-delay:1.4s}
+.ch .jav{--rb:#0f1a2a}
+@keyframes npr{to{width:100%}}
+/* views */
+.view{display:none}.view.on{display:block}
+.view.on>*{opacity:0;transform:translateY(12px);animation:si .5s var(--e) forwards}
+.view.on>*:nth-child(2){animation-delay:.05s}.view.on>*:nth-child(3){animation-delay:.1s}.view.on>*:nth-child(4){animation-delay:.15s}.view.on>*:nth-child(5){animation-delay:.2s}
+@keyframes si{to{opacity:1;transform:none}}
+.view.on.fl>*{transform:translateX(-26px)}.view.on.fr>*{transform:translateX(26px)}
+.card{position:relative;background:linear-gradient(180deg,var(--c2),var(--c1));border:1px solid rgba(var(--acr),.09);border-radius:22px;margin-bottom:10px;box-shadow:inset 0 1px 0 rgba(var(--acr),.16),0 20px 40px -30px rgba(0,0,0,.9)}
+@media(hover:hover) and (min-width:960px){.dash .card{transition:transform .35s var(--e),border-color .3s}.dash .card:hover{transform:translateY(-3px);border-color:rgba(255,255,255,.13)}}
+.card>.sp{position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .3s;background:radial-gradient(260px circle at var(--mx,50%) var(--my,50%),rgba(var(--acr),.07),transparent 70%)}
+.card:hover>.sp{opacity:1}
+.lbl{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 16px 4px}
+.lbl h2{font-size:14.5px;font-weight:900;display:flex;align-items:center;gap:8px}
+.lbl h2::before{content:"";width:6px;height:6px;border-radius:2px;background:var(--ac);transform:rotate(45deg);box-shadow:0 0 10px var(--ac)}
+.lbl h2{white-space:nowrap}.lbl span{font-size:11.5px;color:var(--mu);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+/* hero */
+.hero{padding:16px 16px 16px;overflow:hidden}
+.hero::after{content:"";position:absolute;top:0;left:0;width:50%;height:1px;background:linear-gradient(90deg,transparent,rgba(var(--acr),.95),rgba(var(--ac2r),.95),transparent);transform:translateX(-100%);animation:holo 4s linear infinite;pointer-events:none;will-change:transform}
+@keyframes holo{from{transform:translateX(-100%)}to{transform:translateX(200%)}}
+.who{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.who small{display:block;font-size:11px;color:var(--mu);line-height:1.3}
+.who>div{flex:1;min-width:0}.who .chip{flex-shrink:0}
+.who h1{font:800 20px "Segoe UI",Arial,sans-serif;direction:ltr;text-align:right;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.chip{display:inline-flex;align-items:center;gap:7px;height:28px;padding:0 11px;border-radius:9px;font-size:12px;font-weight:900;white-space:nowrap;border:1px solid}
+.chip i{width:7px;height:7px;border-radius:50%;background:currentColor;box-shadow:0 0 10px currentColor;animation:bk 1.4s infinite}
+.chip.ok{color:var(--ac);background:rgba(var(--acr),.08);border-color:rgba(var(--acr),.3)}
+.chip.warn{color:var(--am);background:rgba(255,197,61,.08);border-color:rgba(255,197,61,.3)}
+.chip.bad{color:var(--rd);background:rgba(255,90,95,.08);border-color:rgba(255,90,95,.3)}
+.chip.hold{color:var(--ac2);background:rgba(var(--ac2r),.1);border-color:rgba(var(--ac2r),.35)}
+.gauge{cursor:pointer;-webkit-user-select:none;user-select:none;transition:transform .2s ease-out;transform-style:preserve-3d;position:relative;width:264px;height:264px;margin:10px auto 6px;--gc:var(--ac);--g1:rgba(var(--acr),.35);--g2:rgba(var(--acr),.14)}
+.gauge.warn{--gc:#ffc53d;--g1:rgba(255,197,61,.35);--g2:rgba(255,197,61,.14)}.gauge.bad{--gc:#ff5a5f;--g1:rgba(255,90,95,.35);--g2:rgba(255,90,95,.14)}
+.gauge svg{position:absolute;inset:0;width:100%;height:100%}
+.gauge .tk line{stroke:rgba(255,255,255,.09);stroke-width:3;stroke-linecap:round;transition:stroke .3s}
+.gauge .tk line.on{stroke:var(--gc)}
+.gauge .tk line.mj{stroke-width:3.6}
+.gauge .halo{position:absolute;inset:14px;border-radius:50%;box-shadow:0 0 40px -6px var(--g1),inset 0 0 30px -8px var(--g1);pointer-events:none}
+.gauge .orb{position:absolute;inset:0;animation:rot 9s linear infinite;will-change:transform;pointer-events:none}
+.gauge .orb i{position:absolute;top:2px;left:50%;width:8px;height:8px;margin-left:-4px;border-radius:50%;background:var(--gc);box-shadow:0 0 12px var(--gc)}
+.gauge .inner{position:absolute;inset:46px;border-radius:50%;background:radial-gradient(circle at 50% 30%,#1b1f24,#0b0c0e 70%);border:1px solid rgba(255,255,255,.06);box-shadow:inset 0 2px 0 rgba(255,255,255,.04),0 20px 50px -20px rgba(0,0,0,.9);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.gauge .inner::before{content:"";position:absolute;inset:-1px;border-radius:50%;background:conic-gradient(from 0deg,transparent,var(--g1),transparent 40%);-webkit-mask:radial-gradient(circle,transparent 69%,#000 70%);mask:radial-gradient(circle,transparent 69%,#000 70%);animation:rot 5s linear infinite}
+.gauge small{font-size:11.5px;color:var(--mu);font-weight:700}
+.gauge strong{font-variant-numeric:tabular-nums;display:flex;align-items:baseline;gap:5px;direction:ltr;font:800 40px/1.05 "Segoe UI",Arial,sans-serif;letter-spacing:-1.5px;color:#fff}
+.gauge strong em{font-style:normal;font-size:15px;letter-spacing:0;color:var(--gc);font-weight:900}
+.gauge .of{font-size:11.5px;color:var(--mu)}
+.gauge .inner>*{transition:opacity .25s,transform .25s}.gauge.sw .inner>*{opacity:0;transform:translateY(6px)}
+.gauge .pc{margin-top:6px;font:900 11px "Segoe UI",Arial,sans-serif;direction:ltr;padding:3px 9px;border-radius:7px;background:var(--g2);color:var(--gc)}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:6px}
+.tile{padding:11px 8px 10px;border-radius:15px;background:rgba(255,255,255,.025);border:1px solid var(--ln);text-align:center;min-width:0}
+.tile small{display:block;font-size:10.5px;color:var(--mu);line-height:1.5}
+.tile b{display:block;font-size:14px;font-weight:900;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tile .lat{direction:ltr}
+.cd{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:8px;padding:10px 12px;border-radius:15px;background:var(--bg2);border:1px solid var(--ln)}
+.cd small{font-size:11px;color:var(--mu);white-space:nowrap}
+.cdv{display:flex;gap:6px;direction:ltr}
+.cdv span{display:flex;flex-direction:column;align-items:center;min-width:40px;padding:4px 2px;border-radius:9px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06)}
+.cdv span:first-child{order:4}.cdv span:nth-child(2){order:3}.cdv span:nth-child(3){order:2}.cdv span:nth-child(4){order:1}
+.cdv b{font:800 15px/1.2 "Segoe UI",Arial,sans-serif;font-variant-numeric:tabular-nums;color:#fff}
+.cdv i{font-style:normal;font-size:9.5px;color:var(--mu);line-height:1.3}
+.cdv span:nth-child(4) b{color:var(--ac)}
+.tbar{display:flex;gap:3px;margin-top:12px;height:8px;direction:ltr}
+.tbar i{flex:1;border-radius:2px;background:rgba(255,255,255,.07);transition:background .3s}
+.tbar i.on{background:var(--ac2)}
+.tbl{display:flex;justify-content:space-between;font-size:11px;color:var(--mu);margin-top:6px}
+.note{display:flex;gap:10px;align-items:center;padding:11px 14px;border-radius:15px;font-size:13px;font-weight:700;line-height:1.6;margin-bottom:10px;border:1px solid}
+.note .ic{width:19px;height:19px}
+.note.warn{background:rgba(255,197,61,.07);color:#ffe2a0;border-color:rgba(255,197,61,.28)}
+.note.bad{background:rgba(255,90,95,.07);color:#ffc2c4;border-color:rgba(255,90,95,.28)}
+.note.info{background:rgba(var(--ac2r),.08);color:#d9cfff;border-color:rgba(var(--ac2r),.3)}
+/* buttons */
+.btn{position:relative;overflow:hidden;height:50px;border-radius:14px;border:1px solid var(--ln);background:rgba(255,255,255,.04);display:flex;align-items:center;justify-content:center;gap:8px;font-size:13.5px;font-weight:900;transition:transform .15s var(--sp),background .2s,border-color .2s,color .2s;isolation:isolate;width:100%}
+.btn:active{transform:scale(.95)}
+@media(hover:hover){.btn:hover{border-color:rgba(255,255,255,.18);background:rgba(255,255,255,.07)}.btn.pri:hover{background:var(--acl)}}
+.btn.pri .ic{animation:nud 2.4s var(--sp) infinite}
+@keyframes nud{0%,70%,100%{transform:none}80%{transform:rotate(90deg) scale(1.15)}}
+.btn.pri{border:0;color:var(--aci);background:linear-gradient(135deg,var(--acl),var(--ac) 45%,var(--acd));height:56px;font-size:15px;box-shadow:0 14px 34px -14px rgba(var(--acr),.9)}
+.btn.pri::after{content:"";position:absolute;top:0;left:-60%;width:35%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.65),transparent);transform:skewX(-20deg);animation:sw 3.4s 1.5s infinite}
+@keyframes sw{0%,60%{left:-60%}100%{left:140%}}
+.btn.tg{overflow:visible;border:0;color:#fff;background:linear-gradient(180deg,#2AABEE,#229ED9);box-shadow:0 12px 28px -12px rgba(42,171,238,1);height:54px;font-size:14.5px}
+.btn.ok,.ib.ok{background:rgba(var(--acr),.12)!important;border-color:rgba(var(--acr),.45)!important;color:var(--ac)!important}
+.qa{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:12px}
+.qa .pri{grid-column:1/-1}
+.qa .sm{flex-direction:column;gap:4px;height:70px;font-size:11.5px}
+.qa .sm .ic{width:20px;height:20px}
+.rip{position:absolute;border-radius:50%;transform:scale(0);background:currentColor;opacity:.22;animation:rp .55s ease-out forwards;pointer-events:none;z-index:-1}
+@keyframes rp{to{transform:scale(3);opacity:0}}
+/* ping */
+.ping{display:flex;align-items:center;gap:14px;padding:14px 16px}
+.sig{display:flex;align-items:flex-end;gap:4px;height:30px;direction:ltr;flex-shrink:0;--pc:#3a3f44}
+.sig i{width:7px;border-radius:2px;background:rgba(255,255,255,.08);transition:background .3s}
+.sig i:nth-child(1){height:25%}.sig i:nth-child(2){height:50%}.sig i:nth-child(3){height:75%}.sig i:nth-child(4){height:100%}
+.sig i.on{background:var(--pc);box-shadow:0 0 10px var(--pc)}
+.sig.run i{animation:sg 1s infinite}.sig.run i:nth-child(2){animation-delay:.15s}.sig.run i:nth-child(3){animation-delay:.3s}.sig.run i:nth-child(4){animation-delay:.45s}
+@keyframes sg{50%{background:rgba(255,255,255,.3)}}
+.pt{flex:1;min-width:0}
+.pt small{display:block;font-size:11px;color:var(--mu);line-height:1.4}
+.pt .pv{display:flex;align-items:center;gap:8px}
+.pt b{font:800 20px "Segoe UI",Arial,sans-serif;direction:ltr;white-space:nowrap}
+.pt em{font-style:normal;font-size:11px;font-weight:800;padding:1px 8px;border-radius:6px;background:rgba(255,255,255,.06);color:var(--mu);white-space:nowrap}
+.ghost{height:38px;padding:0 13px;border-radius:11px;border:1px solid var(--ln);background:rgba(255,255,255,.04);font-size:12.5px;font-weight:800;display:inline-flex;align-items:center;gap:6px;flex-shrink:0}
+.ghost .ic{width:15px;height:15px}
+.busy .ic{animation:rot 1s linear infinite}
+/* channel mini */
+.chm{display:flex;align-items:center;gap:13px;padding:13px 14px;background:linear-gradient(135deg,rgba(42,171,238,.14),rgba(42,171,238,.03));border-color:rgba(42,171,238,.32);overflow:hidden}
+.chm .av{position:relative;width:46px;height:46px;border-radius:14px;background:var(--tg);display:grid;place-items:center;color:#fff;flex-shrink:0}
+.chm .av::after{content:"";position:absolute;inset:-5px;border-radius:17px;border:1.5px solid rgba(42,171,238,.6);animation:png 2.2s ease-out infinite}
+@keyframes png{to{transform:scale(1.25);opacity:0}}
+.chm .av .ic{width:22px;height:22px}
+.chm .pt b{font-family:inherit;font-size:14px;direction:rtl;white-space:normal;line-height:1.5}
+.chm .go{height:36px;padding:0 14px;border-radius:10px;background:#fff;color:#0b1220;font-size:12.5px;font-weight:900;display:inline-flex;align-items:center;flex-shrink:0}
+/* connect */
+.subbox{display:flex;align-items:center;gap:10px;margin:6px 12px 0;padding:11px 13px;border-radius:13px;background:var(--bg2);border:1px dashed rgba(var(--acr),.3)}
+.subbox code{flex:1;min-width:0;font:12px/1.6 ui-monospace,Consolas,monospace;color:#cfd5c6;direction:ltr;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.subbox i{width:8px;height:8px;border-radius:50%;background:var(--ac);box-shadow:0 0 10px var(--ac);flex-shrink:0}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:10px 12px 14px}
+.seg{position:relative;display:grid;grid-template-columns:repeat(3,1fr);margin:6px 12px 0;padding:4px;border-radius:13px;background:var(--bg2);border:1px solid var(--ln)}
+.seg button{position:relative;z-index:1;height:34px;border-radius:10px;font:800 12px "Segoe UI",Tahoma,Arial,sans-serif;color:var(--mu);transition:color .25s;white-space:nowrap}
+.seg button.on{color:var(--aci)}
+.seg .sk{position:absolute;top:4px;bottom:4px;right:4px;width:calc((100% - 8px)/3);border-radius:10px;background:var(--ac);transition:transform .4s var(--sp)}
+.apps{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:10px 12px 14px}
+.apx{position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:center;gap:8px;padding:14px 4px 12px;border-radius:16px;background:rgba(255,255,255,.03);border:1px solid var(--ln);font:800 11.5px "Segoe UI",Arial,sans-serif;transition:transform .15s var(--sp),border-color .2s;isolation:isolate;min-width:0}
+.apx span:last-child{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media(hover:hover){.apx:hover{border-color:rgba(var(--acr),.4)}}
+.apx:active{transform:scale(.94)}
+.apx .ai{width:46px;height:46px;border-radius:14px;display:grid;place-items:center;font:900 14px "Segoe UI",Arial,sans-serif;color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.25)}
+.apx .rec{position:absolute;top:7px;right:7px;font:900 8.5px "Segoe UI",Arial,sans-serif;padding:1px 5px;border-radius:5px;background:var(--ac);color:var(--aci);letter-spacing:.3px}
+.steps{padding:4px 12px 14px;display:grid;gap:0}
+.step{position:relative;display:flex;gap:12px;padding:8px 0;font-size:13px;color:#d6dad0}
+.step b{position:relative;z-index:1;width:26px;height:26px;border-radius:8px;flex-shrink:0;display:grid;place-items:center;background:var(--bg2);border:1px solid rgba(var(--acr),.45);color:var(--ac);font:900 12px "Segoe UI",Arial,sans-serif}
+.step:not(:last-child)::before{content:"";position:absolute;right:12.5px;top:34px;bottom:-8px;width:1px;background:linear-gradient(var(--ln),transparent)}
+.step span{padding-top:2px}
+/* phone mockup */
+.phone{position:relative;width:100%;max-width:300px;height:380px;margin:16px auto 14px;border-radius:34px;padding:10px;background:linear-gradient(160deg,#2a2f36,#0d0f12 40%,#1b1f25);box-shadow:0 0 0 1px rgba(255,255,255,.08),0 30px 60px -20px rgba(0,0,0,.9),0 0 60px -20px rgba(42,171,238,.5),inset 0 0 0 2px rgba(255,255,255,.04);text-align:start}
+.ph-notch{position:absolute;top:16px;left:50%;width:64px;height:16px;margin-left:-32px;border-radius:10px;background:#000;z-index:3}
+.ph-top{position:relative;z-index:2;display:flex;align-items:center;gap:9px;height:74px;padding:32px 14px 8px;border-radius:26px 26px 0 0;background:#17212b;border-bottom:1px solid rgba(0,0,0,.4)}
+.ph-top .bk{width:16px;height:16px;color:#6ab3f3;transform:scaleX(-1)}
+.jav.sm{width:30px;height:30px}.jav.sm .jr{inset:-4px;width:calc(100% + 8px);height:calc(100% + 8px)}.jav.sm .ji{font-size:13px}.jav.sm .jb{display:none}
+.ph-top .jav{--rb:#17212b}
+.ph-n b{display:flex;align-items:center;gap:4px;font:800 12.5px "Segoe UI",Arial,sans-serif;direction:ltr;color:#fff}
+.ph-n .ver{width:12px;height:12px}
+.ph-n small{font-size:10px;color:#7d8e9f}
+.ph-feed{position:relative;height:calc(100% - 74px - 44px);overflow:hidden;background:#0e1621;background-image:radial-gradient(rgba(106,179,243,.06) 1px,transparent 1.2px);background-size:14px 14px;-webkit-mask:linear-gradient(transparent,#000 8%,#000 92%,transparent);mask:linear-gradient(transparent,#000 8%,#000 92%,transparent)}
+.ph-scroll{display:flex;flex-direction:column;gap:10px;padding:10px;animation:fd 26s linear infinite;will-change:transform}
+.phone:hover .ph-scroll,.phone:active .ph-scroll{animation-play-state:paused}
+@keyframes fd{to{transform:translateY(-50%)}}
+.pp{border-radius:14px 14px 4px 14px;background:#182533;overflow:hidden;box-shadow:0 2px 6px rgba(0,0,0,.3)}
+.pth{position:relative;height:74px;display:grid;place-items:center;overflow:hidden}
+.pth.t1{background:radial-gradient(70% 90% at 80% 20%,rgba(var(--acr),.55),transparent 60%),linear-gradient(135deg,#0b1a12,#11251a)}
+.pth.t1 .tg1{position:absolute;z-index:1;top:10px;right:14px;line-height:1.2;font:900 22px "Segoe UI",Arial,sans-serif;color:var(--ac);letter-spacing:1px;text-shadow:0 0 18px rgba(var(--acr),.8)}
+.pth.t1 .tg2{position:absolute;z-index:1;bottom:10px;right:14px;line-height:1.2;font:800 12px "Segoe UI",Arial,sans-serif;color:#fff;letter-spacing:4px}
+.pth.t2{background:linear-gradient(135deg,#1d3557,#2aabee)}
+.pth.t3{background:linear-gradient(135deg,#3b1d57,#9d4edd)}
+.pth.t4{background:linear-gradient(135deg,#57301d,#f59e0b)}
+.pth .play,.pth .bolt,.pth .gift{width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.18);border:1.5px solid rgba(255,255,255,.5);display:grid;place-items:center;color:#fff}
+.pth .ic{width:18px;height:18px}
+.ppb{padding:8px 10px 6px}
+.ppb b{display:block;font-size:12px;font-weight:900;color:#fff}
+.ppb p{font-size:11px;line-height:1.6;color:#c5d0da;margin:2px 0 4px}
+.ppm{display:flex;align-items:center;gap:4px;font:600 9.5px "Segoe UI",Arial,sans-serif;color:#6d8396;direction:ltr;justify-content:flex-end}
+.ppm .ic{width:12px;height:12px}.ppm .dk{color:#6ab3f3}
+.ph-join{display:flex;align-items:center;justify-content:center;height:44px;border-radius:0 0 26px 26px;background:#17212b;color:#6ab3f3;font-size:13px;font-weight:900;border-top:1px solid rgba(0,0,0,.4);position:relative;overflow:hidden}
+.ph-join::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(90deg,transparent,rgba(106,179,243,.25),transparent);transform:skewX(-20deg);animation:sw 3s 1s infinite}
+.chs{max-width:400px}
+.chs-h{display:flex;align-items:center;gap:12px}
+.chs-h .jav{--rb:#101215}
+.chs-h h3{display:flex;align-items:center;gap:5px;direction:ltr;justify-content:flex-end;font-family:"Segoe UI",Arial,sans-serif}
+.chs-h p{margin:0!important}
+.chs .phone{height:340px;margin:12px auto 0}
+@media(max-height:700px){.chs .phone{height:280px}}
+/* classy gold */
+html[data-theme="gold"] .bgx .floor{display:none}
+html[data-theme="gold"] .bgx .grid{opacity:.5}
+html[data-theme="gold"] .bgx .g1{background:radial-gradient(circle,rgba(245,196,81,.13),transparent 65%)}
+html[data-theme="gold"] .bgx .g2{background:radial-gradient(circle,rgba(232,217,181,.07),transparent 65%)}
+html[data-theme="gold"] .isl{border-color:rgba(245,196,81,.25)}
+html[data-theme="gold"] .btn.pri{background:linear-gradient(135deg,#fff0c2 0%,#f5c451 38%,#ffe39a 55%,#c8901f 100%);box-shadow:0 14px 34px -14px rgba(245,196,81,.9),inset 0 1px 0 rgba(255,255,255,.6)}
+html[data-theme="gold"] .lbl h2::before{border-radius:0;width:14px;height:1.5px;transform:none;box-shadow:none}
+.btn.tg::before{content:"";position:absolute;inset:-4px;border-radius:18px;border:2px solid rgba(42,171,238,.6);animation:png 2.2s ease-out infinite;pointer-events:none}
+.dset{display:none}
+@media(min-width:960px){.dset{display:grid;place-items:center;width:44px;height:44px;border-radius:14px;border:1px solid var(--ln);background:var(--c2);color:var(--ac);order:3;margin-inline-start:10px}.dset .ic{width:20px;height:20px}.dset:hover .ic{animation:rot 3s linear infinite}}
+.card:not(.sheet),.news{contain:paint}
+/* settings */
+.sets{max-width:440px}
+.shh{display:flex;align-items:center;gap:11px;margin-bottom:14px}
+.shh>div{flex:1;min-width:0}.shh p{margin:0!important}
+.shi{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:rgba(var(--acr),.12);color:var(--ac);flex-shrink:0}
+.shi .ic{width:22px;height:22px;animation:rot 8s linear infinite}
+.doc{padding:14px;border-radius:20px;background:linear-gradient(160deg,rgba(var(--acr),.10),var(--bg2) 60%);border:1px solid rgba(var(--acr),.25);margin-bottom:12px}
+.doc-top{display:flex;align-items:center;gap:14px}
+.doc-ring{position:relative;width:84px;height:84px;flex-shrink:0}
+.doc-ring svg{width:100%;height:100%;transform:rotate(-90deg)}
+.doc-ring .trk{fill:none;stroke:rgba(255,255,255,.07);stroke-width:7}
+.doc-ring .arc{fill:none;stroke:var(--ac);stroke-width:7;stroke-linecap:round;stroke-dasharray:302;stroke-dashoffset:0;transition:stroke-dashoffset .4s var(--e);filter:drop-shadow(0 0 6px rgba(var(--acr),.6))}
+.doc-ring .dci{position:absolute;top:16px;left:50%;margin-left:-9px;color:var(--ac)}.doc-ring .dci .ic{width:18px;height:18px}
+.doc-ring .dpc{position:absolute;left:0;right:0;bottom:22px;text-align:center;font-size:12px;font-weight:900}
+.doc-ring.scan svg{animation:rot 1.4s linear infinite}
+.doc-t{min-width:0}.doc-t small{display:block;font-size:11px;color:var(--ac);font-weight:800}
+.doc-t b{display:block;font-size:16px;font-weight:900}
+.doc-t span{display:block;font-size:11.5px;color:var(--mu)}
+.doc-m{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:12px 0 10px}
+.doc-m div{padding:8px 4px;border-radius:12px;background:rgba(255,255,255,.035);border:1px solid var(--ln);text-align:center;min-width:0}
+.doc-m small{display:block;font-size:10px;color:var(--mu)}.doc-m b{font-size:12.5px;font-weight:900;white-space:nowrap}
+.dsteps{display:grid;gap:5px;margin-bottom:10px}
+.ds{display:flex;align-items:center;gap:8px;padding:7px 10px;border-radius:11px;background:rgba(255,255,255,.03);font-size:12px;opacity:.5;transition:opacity .3s}
+.ds.on{opacity:1}
+.ds i{width:14px;height:14px;border-radius:50%;border:2px solid var(--mu);border-top-color:transparent;flex-shrink:0}
+.ds.on:not(.ok):not(.fx):not(.bd) i{animation:rot .7s linear infinite;border-color:var(--ac);border-top-color:transparent}
+.ds.ok i{border:0;background:#34d399}.ds.fx i{border:0;background:var(--ac)}.ds.bd i{border:0;background:#ff5a5f}
+.ds span{flex:1}.ds em{font-style:normal;font-size:11px;color:var(--mu)}
+.ds.ok em{color:#34d399}.ds.fx em{color:var(--ac)}.ds.bd em{color:#ff5a5f}
+.doclog{display:grid;gap:4px;margin-bottom:12px}
+.dl{display:flex;align-items:center;gap:7px;font-size:11.5px;color:#c9cdc4}
+.dl .ic{width:13px;height:13px;color:#34d399;flex-shrink:0}.dl.inf .ic{color:#ffc53d}
+.setl{display:grid;gap:8px}
+.sr{display:flex;align-items:center;gap:11px;padding:12px;border-radius:16px;background:rgba(255,255,255,.03);border:1px solid var(--ln);text-align:start;width:100%}
+.sr>div{flex:1;min-width:0}.sr b{display:block;font-size:13.5px;font-weight:900}.sr small{display:block;font-size:11px;color:var(--mu);line-height:1.5}
+.sr.col{flex-direction:column;align-items:stretch}.srh{display:flex;align-items:center;gap:11px}
+.sri{width:36px;height:36px;border-radius:11px;display:grid;place-items:center;background:rgba(var(--acr),.1);color:var(--ac);flex-shrink:0}.sri .ic{width:18px;height:18px}
+.sr .chv{width:16px;height:16px;color:var(--mu)}
+.sr.dg .sri{background:rgba(255,90,95,.1);color:#ff7a7e}
+.tgl{position:relative;width:48px;height:28px;border-radius:999px;background:rgba(255,255,255,.12);flex-shrink:0;transition:background .25s}
+.tgl i{position:absolute;top:3px;right:3px;width:22px;height:22px;border-radius:50%;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,.4);transition:transform .3s var(--sp)}
+.tgl.on{background:var(--ac)}.tgl.on i{transform:translateX(-20px)}
+.pseg{position:relative;display:grid;grid-template-columns:repeat(4,auto);justify-content:stretch;padding:4px;border-radius:13px;background:var(--bg2);border:1px solid var(--ln)}
+.pseg button{position:relative;z-index:1;height:32px;padding:0 6px;border-radius:9px;font-size:11.5px;font-weight:800;color:var(--mu);white-space:nowrap;transition:color .25s}
+.pseg button.on{color:var(--aci)}
+.pseg .sk{position:absolute;top:4px;bottom:4px;left:0;width:0;border-radius:9px;background:var(--ac);transition:transform .4s var(--sp),width .3s}
+/* join celebration */
+.jok{text-align:center;max-width:380px}
+.jok-av{position:relative;width:96px;height:96px;margin:6px auto 14px}
+.jok-av .jw{position:absolute;inset:0;border-radius:50%;border:2px solid rgba(var(--acr),.6);animation:wv 2.2s ease-out infinite}.jok-av .w2{animation-delay:1.1s}
+.jok-av .jc{position:absolute;inset:14px;border-radius:50%;background:var(--ac);color:var(--aci);display:grid;place-items:center;box-shadow:0 0 40px rgba(var(--acr),.6);animation:pp .6s var(--sp) both}
+.jok-av .jc .ic{width:34px;height:34px}
+.jok h3{white-space:normal;font-size:17px;line-height:1.6}
+.jok p{line-height:1.9;font-size:13px!important}
+.cfx{position:fixed;inset:0;z-index:70;pointer-events:none}
+html.noanim *,html.noanim *::before,html.noanim *::after{animation-duration:0s!important;animation-iteration-count:1!important;transition-duration:0s!important}
+/* lite mode for weak devices */
+html.lite .bgx .g1,html.lite .bgx .g2,html.lite .bgx .g3,html.lite .bgx .floor i,html.lite .news::before,html.lite .news::after,html.lite .btn.pri::after,html.lite .njoin::after,html.lite .ph-join::after,html.lite .hero::after,html.lite .isl::before,html.lite .gauge .inner::before,html.lite .jav .jr,html.lite .sline i,html.lite .tbar i,html.lite .tgb::before{animation:none!important}
+html.lite .bgx .floor{display:none}
+html.lite .jav .jr{filter:none}
+/* theme picker */
+.ths{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.thc{position:relative;display:flex;flex-direction:column;gap:9px;padding:10px 10px 12px;border-radius:20px;background:var(--tb);border:1.5px solid rgba(255,255,255,.07);text-align:start;transition:transform .25s var(--sp),border-color .3s,box-shadow .3s;overflow:hidden;isolation:isolate}
+.thc::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(100% 70% at 80% 0%,var(--tg2),transparent 70%);opacity:.7}
+.thc:active{transform:scale(.95)}
+.thc.on{border-color:var(--ta);box-shadow:0 14px 34px -16px var(--ta),inset 0 0 0 1px rgba(255,255,255,.05)}
+.thp{position:relative;height:92px;border-radius:14px;background:var(--tb2);border:1px solid rgba(255,255,255,.06);overflow:hidden}
+.thp .rg{position:absolute;top:12px;right:12px;width:62px;height:62px;border-radius:50%;background:conic-gradient(var(--ta) 0 62%,rgba(255,255,255,.08) 62% 100%);-webkit-mask:radial-gradient(circle,transparent 56%,#000 58%);mask:radial-gradient(circle,transparent 56%,#000 58%);transition:transform .8s var(--e)}
+.thc.on .thp .rg{transform:rotate(360deg)}
+.thp .pc{position:absolute;top:12px;right:12px;width:62px;height:62px;display:grid;place-items:center;font:900 13px "Segoe UI",Arial,sans-serif;color:#fff}
+.thp b{position:absolute;top:16px;left:12px;width:48px;height:9px;border-radius:5px;background:var(--ta);box-shadow:0 0 12px var(--ta)}
+.thp em{position:absolute;top:32px;left:12px;width:34px;height:7px;border-radius:4px;background:rgba(255,255,255,.18)}
+.thp u{position:absolute;bottom:12px;left:12px;width:64px;height:22px;border-radius:8px;background:var(--ta);opacity:.9}
+.thc .tn{display:flex;align-items:center;justify-content:space-between;gap:6px}
+.thc .tn span{font-size:13px;font-weight:900;color:#f2f2ee}
+.thc .tn small{display:flex;gap:3px}
+.thc .tn small i{width:9px;height:9px;border-radius:50%}
+.thc .ck{position:absolute;top:8px;left:8px;width:24px;height:24px;border-radius:50%;background:var(--ta);color:#000;display:grid;place-items:center;transform:scale(0);transition:transform .35s var(--sp);z-index:2}
+.thc.on .ck{transform:scale(1)}
+.thc .ck .ic{width:14px;height:14px}
+::view-transition-old(root){animation:none}
+::view-transition-new(root){animation:vtr .75s cubic-bezier(.4,0,.2,1) both}
+@keyframes vtr{from{clip-path:circle(0 at var(--vx,50%) var(--vy,0%))}to{clip-path:circle(150vmax at var(--vx,50%) var(--vy,0%))}}
+/* quick theme card */
+.qth{display:flex;align-items:center;gap:12px;padding:12px 14px}
+.qth .qi{width:40px;height:40px;border-radius:13px;display:grid;place-items:center;background:rgba(var(--acr),.12);color:var(--ac);flex-shrink:0}
+.qth .qi .ic{width:20px;height:20px}
+.qth .pt b{font-family:inherit;font-size:13.5px;direction:rtl}
+.qdots{display:flex;gap:7px;flex-shrink:0}
+.qdots button{width:24px;height:24px;border-radius:50%;background:var(--d);border:2px solid transparent;box-shadow:0 0 0 1px rgba(255,255,255,.1);transition:transform .25s var(--sp),border-color .2s}
+.qdots button.on{border-color:#fff;transform:scale(1.15)}
+.qdots button:active{transform:scale(.85)}
+/* app list */
+.apl{display:grid;grid-template-columns:minmax(0,1fr);gap:8px;padding:18px 12px 14px}
+.apr{min-width:0;position:relative;display:flex;align-items:center;gap:12px;padding:11px 11px 11px 10px;border-radius:18px;background:rgba(255,255,255,.028);border:1px solid var(--ln);opacity:0;transform:translateY(10px);animation:si .45s var(--e) forwards;transition:border-color .2s,background .2s}
+@media(hover:hover){.apr:hover{border-color:rgba(255,255,255,.16);background:rgba(255,255,255,.045)}}
+.apr.rec{background:linear-gradient(120deg,rgba(var(--acr),.11),rgba(255,255,255,.02) 60%);border-color:rgba(var(--acr),.38);box-shadow:0 14px 30px -20px rgba(var(--acr),.8)}
+.api{position:relative;width:50px;height:50px;border-radius:15px;flex-shrink:0;display:grid;place-items:center;box-shadow:inset 0 1px 0 rgba(255,255,255,.3),inset 0 -6px 12px rgba(0,0,0,.18),0 10px 20px -12px var(--ac);overflow:hidden}
+.api::after{content:"";position:absolute;top:0;left:0;right:0;height:50%;background:linear-gradient(rgba(255,255,255,.22),transparent)}
+.api svg{width:26px;height:26px;position:relative;z-index:1}
+.apn{flex:1;min-width:0}
+.apn b{display:block;font:800 14.5px "Segoe UI",Arial,sans-serif;direction:ltr;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.apn small{display:block;font-size:11.5px;color:var(--mu);line-height:1.5;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bdg{position:absolute;top:-9px;right:16px;z-index:2;padding:1px 9px;border-radius:7px;background:var(--ac);color:var(--aci);font-size:10px;font-weight:900;line-height:1.7;white-space:nowrap;box-shadow:0 4px 12px -4px rgba(var(--acr),.8)}
+.apa{position:relative;overflow:hidden;isolation:isolate;display:inline-flex;align-items:center;gap:5px;height:38px;padding:0 12px;border-radius:12px;background:rgba(var(--acr),.12);border:1px solid rgba(var(--acr),.35);color:var(--ac);font-size:12.5px;font-weight:900;flex-shrink:0;transition:transform .15s var(--sp),background .2s}
+.apr.rec .apa{background:var(--ac);color:var(--aci);border-color:transparent}
+.apa .ic{width:15px;height:15px}
+.apa:active,.apd:active{transform:scale(.9)}
+.apd{display:grid;place-items:center;width:38px;height:38px;border-radius:12px;border:1px solid var(--ln);background:rgba(255,255,255,.04);color:#cfd3cb;flex-shrink:0;transition:transform .15s var(--sp),border-color .2s}
+.apd .ic{width:16px;height:16px}
+@media(hover:hover){.apd:hover{border-color:rgba(255,255,255,.25)}.apa:hover{filter:brightness(1.1)}}
+@media(max-width:350px){.apa span{display:none}.apa{width:38px;padding:0;justify-content:center}.api{width:44px;height:44px}}
+/* stepper */
+.stp{position:relative;display:grid;grid-template-columns:repeat(3,1fr);padding:14px 10px 6px;text-align:center}
+.sline{position:absolute;top:36px;left:17%;right:17%;height:2px;border-radius:2px;background:rgba(255,255,255,.08);overflow:hidden}
+.sline i{position:absolute;top:0;bottom:0;right:0;width:30%;background:linear-gradient(90deg,transparent,var(--ac),transparent);transform:translateX(100%);animation:sfl 2.6s ease-in-out infinite;will-change:transform}
+@keyframes sfl{from{transform:translateX(100%)}to{transform:translateX(-334%)}}
+.sx{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;gap:4px}
+.so{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;background:#0a0b0d;border:1px solid rgba(var(--acr),.4);color:var(--ac);box-shadow:0 0 0 5px var(--c1),0 0 22px -6px rgba(var(--acr),.6);margin-bottom:4px}
+.sx:nth-child(3) .so{animation:sgl 2.6s .3s infinite}.sx:nth-child(4) .so{animation:sgl 2.6s 1.1s infinite}.sx:nth-child(2) .so{animation:sgl 2.6s 1.9s infinite}
+@keyframes sgl{0%,100%{border-color:rgba(var(--acr),.35)}15%{border-color:var(--ac)}}
+.so .ic{width:19px;height:19px}
+.sx b{font-size:13px;font-weight:900}
+.sx small{font-size:11px;color:var(--mu);line-height:1.3}
+.tip{display:flex;gap:9px;align-items:flex-start;margin:10px 12px 14px;padding:10px 12px;border-radius:13px;background:rgba(var(--ac2r),.07);border:1px solid rgba(var(--ac2r),.22);font-size:12px;line-height:1.75;color:#d4cdf5}
+.tip .ic{width:16px;height:16px;margin-top:3px;color:#b9a6ff}
+/* servers */
+.srch{display:flex;align-items:center;gap:8px;margin:6px 12px 0;padding:0 12px;height:44px;border-radius:13px;background:var(--bg2);border:1px solid var(--ln);transition:border-color .2s}
+.srch:focus-within{border-color:rgba(var(--acr),.45)}
+.srch input{flex:1;min-width:0;font-size:14px}
+.srch input::placeholder{color:var(--mu)}
+.flt{display:flex;flex-wrap:wrap;gap:6px;padding:10px 12px 4px}
+.flt::-webkit-scrollbar{display:none}
+.flt button{flex-shrink:0;height:30px;padding:0 12px;border-radius:9px;border:1px solid var(--ln);font:800 11px "Segoe UI",Arial,sans-serif;color:var(--mu);background:transparent;transition:.2s}
+.flt button.on{color:var(--aci);background:var(--ac);border-color:transparent}
+#cfgs{padding:4px 0}
+.cfg{display:flex;align-items:center;gap:11px;padding:11px 14px;margin:0 6px;border-radius:14px;transition:background .2s}
+@media(hover:hover){.cfg:hover{background:rgba(255,255,255,.03)}}
+.cfg+.cfg{border-top:1px solid rgba(255,255,255,.045)}
+.num{width:38px;height:38px;border-radius:11px;flex-shrink:0;display:grid;place-items:center;font:900 13px "Segoe UI",Arial,sans-serif;color:var(--ac);background:var(--bg2);border:1px solid var(--ln)}
+.cb{flex:1;min-width:0}
+.cb b{display:block;font-size:13.5px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tags{display:flex;gap:4px;margin-top:3px;flex-wrap:wrap}
+.tags span{font:800 9.5px "Segoe UI",Arial,sans-serif;letter-spacing:.4px;padding:1px 6px;border-radius:5px;background:rgba(255,255,255,.06);color:#b9beb3;direction:ltr}
+.tags span:first-child{background:rgba(var(--ac2r),.16);color:#cbbcff}
+.ib{position:relative;overflow:hidden;width:38px;height:38px;border-radius:11px;border:1px solid var(--ln);background:rgba(255,255,255,.035);display:grid;place-items:center;flex-shrink:0;transition:transform .15s var(--sp),border-color .2s;isolation:isolate}
+@media(hover:hover){.ib:hover{border-color:rgba(255,255,255,.2)}}
+.ib:active{transform:scale(.88)}
+.ib .ic{width:16px;height:16px}
+.empty{padding:26px 16px;text-align:center;color:var(--mu);font-size:13px}
+.pad{padding:6px 12px 14px}
+/* channel */
+.ch{padding:24px 18px 18px;text-align:center;overflow:hidden;background:radial-gradient(100% 60% at 50% 0%,rgba(42,171,238,.22),transparent 70%),linear-gradient(180deg,var(--c2),var(--c1));border-color:rgba(42,171,238,.28)}
+.tgo{position:relative;width:132px;height:132px;margin:0 auto 14px}
+.tgo span{position:absolute;inset:0;border-radius:50%;border:1px solid rgba(42,171,238,.25)}
+.tgo span:nth-child(2){inset:16px;border-color:rgba(42,171,238,.4)}
+.tgo .w{border:1.5px solid rgba(42,171,238,.7);inset:32px;animation:wv 2.6s ease-out infinite}
+.tgo .w2{animation-delay:1.3s}
+@keyframes wv{to{transform:scale(2);opacity:0}}
+.tgo .o{position:absolute;inset:0;animation:rot 10s linear infinite}
+.tgo .o i{position:absolute;top:-4px;left:50%;margin-left:-4px;width:8px;height:8px;border-radius:50%;background:var(--ac);box-shadow:0 0 12px var(--ac)}
+.tgo .c{position:absolute;inset:32px;border-radius:22px;background:var(--tg);display:grid;place-items:center;color:#fff;box-shadow:0 0 50px rgba(42,171,238,.6);transform:rotate(-8deg)}
+.tgo .c .ic{width:32px;height:32px;transform:rotate(8deg)}
+.ch h3{font-size:19px;font-weight:900;line-height:1.55}
+.ch h3 em{font-style:normal;color:var(--ac)}
+.ch p{color:#b9c0c9;font-size:13px;margin:4px 0 16px}
+.feat{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px;text-align:start}
+.feat div{display:flex;align-items:center;gap:9px;padding:11px;border-radius:14px;background:rgba(255,255,255,.035);border:1px solid var(--ln);font-size:12.5px;font-weight:800;min-width:0}
+.feat i{width:30px;height:30px;border-radius:9px;flex-shrink:0;display:grid;place-items:center;background:rgba(42,171,238,.15);color:#7fd0f7}
+.feat i .ic{width:16px;height:16px}
+.chb{display:grid;gap:8px}
+.foot{text-align:center;padding:8px 0 4px;color:var(--mu);font-size:12px}
+.foot a{color:var(--ac);font-weight:800}
+/* nav */
+.navfade{position:fixed;left:0;right:0;bottom:0;height:calc(110px + env(safe-area-inset-bottom));z-index:29;pointer-events:none;background:linear-gradient(to top,var(--bg) 35%,rgba(var(--bgr),0))}
+.nav{position:fixed;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:30;max-width:500px;margin:0 auto;height:68px;border-radius:22px;background:#0f1114;border:1px solid rgba(255,255,255,.1);box-shadow:0 -1px 0 rgba(255,255,255,.04) inset,0 20px 50px -10px rgba(0,0,0,.95);display:flex;padding:6px;gap:4px}
+.nav .pill{position:absolute;top:6px;bottom:6px;left:0;width:0;border-radius:16px;background:linear-gradient(180deg,rgba(var(--acr),.16),rgba(var(--acr),.06));border:1px solid rgba(var(--acr),.35);transition:transform .45s var(--sp),width .3s var(--e);pointer-events:none;opacity:0}
+.nav .pill.rdy{opacity:1}
+.nav .pill::after{content:"";position:absolute;top:-1px;left:28%;right:28%;height:2px;border-radius:2px;background:var(--ac);box-shadow:0 0 12px var(--ac)}
+.nav button{position:relative;z-index:1;flex:1 1 0;min-width:0;height:100%;border-radius:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:11px;font-weight:800;color:var(--mu);transition:color .25s;touch-action:manipulation;-webkit-user-select:none;user-select:none}
+.nav button .ic{width:22px;height:22px;transition:transform .35s var(--sp)}
+.nav button:active .ic{transform:scale(.82)}
+.nav button.on{color:var(--ac)}.nav button.on .ic{transform:translateY(-1px) scale(1.06)}
+.nav button span.t{line-height:1;white-space:nowrap}
+.nav .ndot{position:absolute;top:9px;left:50%;margin-left:6px;width:8px;height:8px;border-radius:50%;background:#34d399;box-shadow:0 0 0 2px var(--c1)}
+.nav .nbot.seen .ndot{display:none}
+@media(max-width:350px){.nav button{font-size:9.5px}.nav button .ic{width:20px;height:20px}}
+.nav .dot{position:absolute;top:9px;left:50%;margin-left:6px;width:8px;height:8px;border-radius:50%;background:var(--rd);box-shadow:0 0 0 2px #0f1114;animation:bk 1.5s infinite}
+/* sheets */
+.ov{position:fixed;inset:0;z-index:50;display:flex;align-items:flex-end;justify-content:center;padding:10px;background:rgba(0,0,0,.72);opacity:0;visibility:hidden;transition:opacity .25s,visibility .25s}
+.ov.show{opacity:1;visibility:visible}
+.sheet{width:100%;max-width:420px;padding:12px 16px 16px;background:#101215;transform:translateY(40px);transition:transform .45s cubic-bezier(.16,1,.3,1);max-height:92vh;overflow:auto;margin:0}
+.sheet::before{content:"";display:block;width:40px;height:4px;border-radius:9px;background:rgba(255,255,255,.18);margin:0 auto 14px}
+.ov.show .sheet{transform:none}
+body.lock{overflow:hidden}
+@media(min-width:640px) and (min-height:640px){.ov{align-items:center}}
+.sheet h3{font-size:16px;font-weight:900;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sheet p{font-size:12.5px;color:var(--mu);margin:2px 0 14px}
+.qrw{position:relative;background:#fff;border-radius:18px;padding:12px}
+.qrw::before,.qrw::after{content:"";position:absolute;width:28px;height:28px;border:3px solid var(--ac)}
+.qrw::before{top:-7px;left:-7px;border-right:0;border-bottom:0;border-radius:10px 0 0 0}
+.qrw::after{bottom:-7px;right:-7px;border-left:0;border-top:0;border-radius:0 0 10px 0}
+.qrw img{width:100%;height:auto;display:block;image-rendering:pixelated;-webkit-touch-callout:default;aspect-ratio:1}
+.sheet p.qh{margin:12px 0 0;text-align:center;font-size:11.5px}
+.row3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:16px}
+.toast{position:fixed;left:50%;top:max(14px,env(safe-area-inset-top));z-index:60;transform:translate(-50%,-30px);opacity:0;visibility:hidden;padding:10px 16px;border-radius:12px;background:#16191d;border:1px solid rgba(255,255,255,.12);font-size:13px;font-weight:800;display:flex;gap:8px;align-items:center;transition:.35s var(--sp);max-width:calc(100% - 24px);box-shadow:0 14px 40px -10px rgba(0,0,0,.9)}
+.toast span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.toast .ic{width:22px;height:22px;padding:4px;border-radius:7px;background:rgba(var(--acr),.14);color:var(--ac)}
+.toast.show{opacity:1;visibility:visible;transform:translate(-50%,0)}
+/* desktop dashboard */
+@media(min-width:960px){
+ .app{max-width:1320px;padding:22px 28px 40px}
+ .top{position:relative;margin:0;padding:0 0 14px}.top.sc{background:none;box-shadow:none}.logo{width:48px;height:48px;font-size:22px}.brand b{font-size:18px}
+ .news{margin-bottom:14px}
+ .nav,.navfade{display:none}
+ .dash{display:grid;grid-template-columns:400px minmax(0,1.15fr) minmax(0,1fr);gap:14px;align-items:start}
+ .view,.view.on{display:block}
+ .dash>.view>*{opacity:0;transform:translateY(14px);animation:si .6s var(--e) forwards}
+ #v-home{grid-column:1;grid-row:1}#v-ch{grid-column:1;grid-row:2}#v-con{grid-column:2;grid-row:1/3}#v-srv{grid-column:3;grid-row:1/3}
+ #v-con>*{animation-delay:.12s}#v-srv>*{animation-delay:.22s}#v-ch>*{animation-delay:.3s}
+ .card{margin-bottom:14px}
+ #spot{opacity:1}
+}
+@media(min-width:960px) and (max-width:1219px){.dash{grid-template-columns:380px minmax(0,1fr)}#v-home{grid-column:1;grid-row:1/4}#v-con{grid-column:2;grid-row:1}#v-srv{grid-column:2;grid-row:2}#v-ch{grid-column:2;grid-row:3}}
+@media(max-width:959px) and (max-height:760px){.gauge{width:232px;height:232px;margin:4px auto 2px}.gauge .inner{inset:40px}.gauge strong{font-size:35px}.hero{padding-bottom:14px}}
+@media(max-width:350px){.gauge{width:236px;height:236px}.gauge .inner{inset:40px}.gauge strong{font-size:34px}.feat{grid-template-columns:1fr}.brand small{display:none}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.view.on>*,.dash>.view>*{opacity:1!important;transform:none!important}}
+
+/* clean IP */
+.ipd{padding:0 16px;margin:4px 0 2px;font-size:12.5px;line-height:1.9;color:var(--mu)}
+.ipb{display:flex;flex-direction:column;gap:8px;padding-top:12px}
+.ipb .btn.pri{cursor:pointer}.ipb2{display:grid;grid-template-columns:1fr;gap:8px}.ipb2:has(#ipdel:not(.hide)){grid-template-columns:2fr 1fr}
+.ipl{margin:10px 12px 0;border-radius:14px;border:1px solid var(--ln);background:var(--bg2);overflow:hidden}
+.ipl .ipr{display:flex;align-items:center;gap:10px;padding:9px 12px;font-size:12.5px}.ipl .ipr+.ipr{border-top:1px solid rgba(255,255,255,.05)}
+.ipr .n{width:22px;height:22px;flex-shrink:0;border-radius:7px;display:grid;place-items:center;font-size:11px;font-weight:900;background:rgba(var(--acr),.12);color:var(--ac)}
+.ipr code{flex:1;min-width:0;font:700 12.5px ui-monospace,Menlo,Consolas,monospace;direction:ltr;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ipr .ms{font-size:11.5px;font-weight:800;color:var(--mu);white-space:nowrap;direction:ltr}.ipr .ms.g{color:var(--ac)}.ipr .ms.y{color:var(--am)}.ipr .ms.r{color:var(--rd)}
+.ipl .more{padding:8px 12px;font-size:11.5px;color:var(--mu);border-top:1px solid rgba(255,255,255,.05)}
+.iplk{margin:10px 12px 0;padding:12px;border-radius:14px;border:1px dashed rgba(var(--acr),.45);background:rgba(var(--acr),.05)}
+.iplk small{display:block;font-size:11.5px;color:var(--mu);margin-bottom:8px}
+.iplr{display:flex;align-items:center;gap:8px}.iplr code{flex:1;min-width:0;height:38px;line-height:38px;padding:0 12px;border-radius:11px;background:var(--bg2);border:1px solid var(--ln);font:600 11.5px ui-monospace,Menlo,Consolas,monospace;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ips textarea{width:100%;height:150px;padding:12px;border-radius:14px;border:1px solid var(--ln);background:var(--bg2);color:var(--tx);font:600 13px/1.7 ui-monospace,Menlo,Consolas,monospace;resize:vertical;outline:none;transition:border-color .2s}
+.ips textarea:focus{border-color:rgba(var(--acr),.55)}
+.iph{font-size:11.5px!important;color:var(--mu);margin:8px 2px 0!important;line-height:1.8}
+.ipst{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.ipsr{display:flex;align-items:center;gap:9px;padding:10px;border-radius:13px;border:1px solid var(--ln);background:var(--bg2);min-width:0}
+.ipsr i{width:24px;height:24px;flex-shrink:0;border-radius:8px;display:grid;place-items:center;font-style:normal;font-size:12px;font-weight:900;background:rgba(255,255,255,.06);color:var(--mu);transition:.3s}
+.ipsr i.on{background:rgba(var(--acr),.15);color:var(--ac)}.ipsr i.done{background:var(--ac);color:var(--aci)}
+.ipsr b{display:block;font-size:12px}.ipsr small{display:block;font-size:10.5px;color:var(--mu);line-height:1.6}
+.ipbar{height:6px;margin:14px 0 8px;border-radius:9px;background:rgba(255,255,255,.07);overflow:hidden}.ipbar i{display:block;height:100%;width:0;border-radius:inherit;background:linear-gradient(90deg,var(--acd),var(--ac));transition:width .4s}
+.ipn{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:12px;color:var(--mu)}.ipn b{color:var(--ac);font-weight:900}
+.ipres{margin-top:10px;max-height:240px;overflow:auto;border-radius:14px;border:1px solid var(--ln);background:var(--bg2)}.ipres:empty{display:none}
+.ipres label{display:flex;align-items:center;gap:10px;padding:9px 12px;font-size:12.5px;cursor:pointer}.ipres label+label{border-top:1px solid rgba(255,255,255,.05)}
+.ipres .ms{direction:ltr;unicode-bidi:isolate;font-size:11.5px;font-weight:800;white-space:nowrap}.ipres .ms.g{color:var(--ac)}.ipres .ms.y{color:var(--am)}.ipres .ms.r{color:var(--rd)}
+.ipres input{width:18px;height:18px;accent-color:var(--ac);flex-shrink:0}
+.ipres .em{padding:16px;text-align:center;font-size:12.5px;color:var(--mu);line-height:1.9}
+.ipk{display:block;font-size:11.5px;color:var(--mu);margin:14px 2px 0}
+.seg.ipseg{grid-template-columns:repeat(2,1fr)}.seg.ipseg .sk{width:calc((100% - 8px)/2)}
+.ipseg,#ipper{margin:6px 0 0}
+</style>
+</head>
+<body>
+<div class="bgx" aria-hidden="true"><div class="grid"></div><div class="g1"></div><div class="g2"></div><div class="g3"></div><div class="floor"><i></i></div></div>
+<div id="spot" aria-hidden="true"></div>
+<div id="intro"><div class="ring"><svg viewBox="0 0 110 110"><circle cx="55" cy="55" r="50"/></svg><b>J</b></div><div class="nm"><span>SUPER JINX</span></div></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <linearGradient id="sg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--ac)"/><stop offset=".45" style="stop-color:var(--ac3)"/><stop offset=".75" stop-color="#2aabee"/><stop offset="1" style="stop-color:var(--ac2)"/></linearGradient>
+ <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="12" height="12" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M5 15H4.5A1.5 1.5 0 0 1 3 13.5v-9A1.5 1.5 0 0 1 4.5 3h9A1.5 1.5 0 0 1 15 4.5V5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+ <symbol id="i-qr" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="3.5" y="3.5" width="6" height="6" rx="1"/><rect x="14.5" y="3.5" width="6" height="6" rx="1"/><rect x="3.5" y="14.5" width="6" height="6" rx="1"/></g><g fill="currentColor"><rect x="14" y="14" width="3" height="3"/><rect x="18" y="18" width="3" height="3"/><rect x="18" y="14" width="3" height="2"/><rect x="14" y="18" width="2" height="3"/></g></symbol>
+ <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+ <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></symbol>
+ <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 4v11m-5-5l5 5 5-5M5 20h14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+ <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+ <symbol id="i-re" viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-2.35-5.65M20 4v5h-5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+ <symbol id="i-warn" viewBox="0 0 24 24"><path d="M12 3l9.5 17h-19L12 3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M12 10v4.5M12 17.5v.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+ <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 11v6M12 7.5v.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+ <symbol id="i-tg" viewBox="0 0 24 24"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z" fill="currentColor"/></symbol>
+ <symbol id="i-ver" viewBox="0 0 24 24"><path d="M12 1.8l2.6 1.9 3.2-.1 1 3.1 2.6 1.9-1 3.1 1 3.1-2.6 1.9-1 3.1-3.2-.1L12 22.2l-2.6-1.9-3.2.1-1-3.1-2.6-1.9 1-3.1-1-3.1 2.6-1.9 1-3.1 3.2.1z" fill="currentColor"/><path d="M8 12.3l2.6 2.6L16.2 9.3" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+ <symbol id="i-dchk" viewBox="0 0 24 24"><path d="M2 12.5l4 4L14 8.5M10 16.5l1 1L21 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+ <symbol id="i-home" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 12l4-4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="12" r="1.6" fill="currentColor"/></symbol>
+ <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+ <symbol id="i-list" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="6" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><rect x="3" y="14" width="18" height="6" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M7 7h.01M7 17h.01" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></symbol>
+ <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+ <symbol id="i-share" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="6" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="18" cy="19" r="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4" stroke="currentColor" stroke-width="2"/></symbol>
+ <symbol id="i-gift" viewBox="0 0 24 24"><path d="M20 12v9H4v-9M2 7h20v5H2zM12 21V7M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+ <symbol id="i-news" viewBox="0 0 24 24"><path d="M4 4h13v16H6a2 2 0 0 1-2-2zM17 8h3v10a2 2 0 0 1-2 2M8 8h5M8 12h5M8 16h3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+ <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.8 7L4 20l1-4.7A8 8 0 1 1 21 12z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+ <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 2l2.2 6.3L20.5 10l-6.3 2.2L12 18.5l-2.2-6.3L3.5 10l6.3-1.7z" fill="currentColor"/><path d="M19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9z" fill="currentColor" opacity=".6"/></symbol>
+ <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M8.5 12l2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+ <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+ <symbol id="i-chev" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+ <symbol id="i-pal" viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0 0 18c1.2 0 1.8-.8 1.8-1.7 0-.5-.2-.9-.5-1.2-.3-.3-.5-.7-.5-1.2 0-.9.8-1.7 1.7-1.7H16a5 5 0 0 0 5-5c0-4-4-7.2-9-7.2z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="7.5" cy="11" r="1.4" fill="currentColor"/><circle cx="10.5" cy="7.3" r="1.4" fill="currentColor"/><circle cx="15" cy="7.8" r="1.4" fill="currentColor"/></symbol>
+ <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+ <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></symbol>
+ <symbol id="i-bot" viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="12" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3v4M8.5 19v2M15.5 19v2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="9.3" cy="13" r="1.5" fill="currentColor"/><circle cx="14.7" cy="13" r="1.5" fill="currentColor"/><circle cx="12" cy="3" r="1.3" fill="currentColor"/></symbol>
+ <symbol id="i-send" viewBox="0 0 24 24"><path d="M20 4L3 11l6.5 2.5L12 20z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M20 4L9.5 13.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+ <symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2.8l1.6 2.3 2.8-.5.6 2.8 2.4 1.5-1.1 2.6 1.1 2.6-2.4 1.5-.6 2.8-2.8-.5L12 21.2l-1.6-2.3-2.8.5-.6-2.8-2.4-1.5 1.1-2.6L4.6 9.9 7 8.4l.6-2.8 2.8.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+ <symbol id="i-cpu" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><rect x="9.5" y="9.5" width="5" height="5" rx="1" fill="currentColor"/><path d="M9 3v3M15 3v3M9 18v3M15 18v3M3 9h3M3 15h3M18 9h3M18 15h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+ <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5zM20 17v4H6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+</svg>
+
+<div class="app">
+ <header class="top">
+  <button class="logo" id="logo" type="button" aria-label="انتخاب تم">J<span class="lgb"><svg class="ic"><use href="#i-pal"/></svg></span></button>
+  <button class="dset" id="deskset" type="button" aria-label="تنظیمات"><svg class="ic"><use href="#i-gear"/></svg></button>
+  <div class="brand"><b>Super JinX</b><small>پنل اشتراک اختصاصی</small></div>
+  <a class="isl ch-link" href="#" id="tgx" aria-label="کانال تلگرام Super JinX"><span class="isl-ic" id="tgorb"><svg class="ic"><use href="#i-tg"/></svg><span class="tgx-ub" id="tgub">۱</span></span><span class="isl-txt"><span class="isl-a"><small>تلگرام</small><b>کانال ما</b></span><span class="isl-b"><small id="islS">پست جدید در کانال</small><b id="islB">عضو شو، جا نمونی</b></span></span><span class="isl-w"><i></i><i></i><i></i><i></i></span></a>
+ </header>
+ <a class="news ch-link" href="#" id="news" aria-label="کانال تلگرام Super JinX"><span class="jav"><svg class="jr" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="24.5" fill="none" stroke="url(#sg)" stroke-width="2.4" stroke-linecap="round" pathLength="100" stroke-dasharray="21 4"/></svg><span class="ji">J</span><span class="jb"><svg class="ic"><use href="#i-tg"/></svg></span></span><div class="nmid"><div class="ntop"><b>Super JinX</b><svg class="ver"><use href="#i-ver"/></svg><span class="live"><i></i>LIVE</span><span class="tm">همین الان</span></div><div class="nw" id="nw"></div></div><span class="njoin"><svg class="ic"><use href="#i-tg"/></svg>عضویت</span><div class="nds" id="nds"></div></a>
+
+ <div class="dash">
+ <section class="view on" id="v-home">
+  <div id="announce" class="note info hide"><svg class="ic"><use href="#i-info"/></svg><span></span></div>
+  <div id="warn" class="note hide"><svg class="ic"><use href="#i-warn"/></svg><span></span></div>
+  <div class="card hero">
+   <div class="who"><div><small>نام کاربری</small><h1 id="uname">-</h1></div><span id="chip" class="chip ok"><i></i><span>فعال</span></span></div>
+   <div class="gauge" id="gauge">
+    <div class="halo"></div><svg viewBox="0 0 264 264"><g class="tk" id="ticks"></g></svg><div class="orb"><i></i></div>
+    <div class="inner"><small>حجم باقی‌مانده</small><strong id="remain">0</strong><span class="of" id="ofTotal">-</span><span class="pc" id="pcv">-</span></div>
+   </div>
+   <div class="tiles">
+    <div class="tile"><small>مصرف‌شده</small><b class="lat" id="used">-</b></div>
+    <div class="tile"><small>روز مانده</small><b id="days">-</b></div>
+    <div class="tile"><small>تاریخ انقضا</small><b id="exp">-</b></div>
+   </div>
+   <div class="cd hide" id="cd"><small>تا پایان اشتراک</small><div class="cdv"><span><b id="cdd">0</b><i>روز</i></span><span><b id="cdh">00</b><i>ساعت</i></span><span><b id="cdm">00</b><i>دقیقه</i></span><span><b id="cds">00</b><i>ثانیه</i></span></div></div>
+   <div class="tbar" id="tbar"></div>
+   <div class="tbl"><span>مصرف حجم</span><span id="tpct"></span></div>
+  </div>
+  <div class="card qa">
+   <button class="btn pri" id="addapp" type="button"><svg class="ic"><use href="#i-plus"/></svg>اتصال با یک لمس</button>
+   <button class="btn sm" id="subcopy" type="button"><svg class="ic"><use href="#i-copy"/></svg>کپی لینک</button>
+   <button class="btn sm" id="subqr" type="button"><svg class="ic"><use href="#i-qr"/></svg>QR</button>
+   <button class="btn sm" data-go="srv" type="button"><svg class="ic"><use href="#i-list"/></svg>سرورها</button>
+  </div>
+  <div class="card ping">
+   <div class="sig" id="sig"><i></i><i></i><i></i><i></i></div>
+   <div class="pt"><small>پاسخ سرور</small><div class="pv"><b id="pingv">-</b><em id="pingq">در حال تست</em></div></div>
+   <button class="ghost" id="repin" type="button"><svg class="ic"><use href="#i-re"/></svg>تست دوباره</button>
+  </div>
+  <div class="card qth"><span class="qi"><svg class="ic"><use href="#i-pal"/></svg></span><div class="pt"><small>شخصی‌سازی</small><b>تم صفحه رو انتخاب کن</b></div><div class="qdots" id="qdots"></div></div>
+  <a class="card tgc ch-link" href="#">
+   <div class="tgh"><span class="jav"><svg class="jr" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="24.5" fill="none" stroke="url(#sg)" stroke-width="2.4" stroke-linecap="round" pathLength="100" stroke-dasharray="21 4"/></svg><span class="ji">J</span><span class="jb"><svg class="ic"><use href="#i-tg"/></svg></span></span><div class="tgn"><b>Super JinX<svg class="ver"><use href="#i-ver"/></svg></b><small>کانال رسمی · <span class="lat">@Super_Jinx</span></small></div><span class="njoin">عضویت</span></div>
+   <div class="bub">سرورهای جدید، <b>آموزش اتصال</b> و اطلاع‌رسانی قطعی‌ها، اول توی کانال منتشر میشه.<div class="bm"><svg class="ic"><use href="#i-dchk"/></svg></div></div>
+  </a>
+ </section>
+
+ <section class="view" id="v-con">
+  <div class="card">
+   <div class="lbl"><h2>لینک اشتراک</h2><span>همه‌ی سرورها در یک لینک</span></div>
+   <div class="subbox"><i></i><code id="suburl"></code></div>
+   <div class="row2"><button class="btn" id="subcopy2" type="button"><svg class="ic"><use href="#i-copy"/></svg>کپی لینک</button><button class="btn" id="subqr2" type="button"><svg class="ic"><use href="#i-qr"/></svg>نمایش QR</button></div>
+  </div>
+  <div class="card">
+   <div class="lbl"><h2>اپ‌های پیشنهادی</h2><span>نصب کن، بعد «افزودن» رو بزن</span></div>
+   <div class="seg" id="os"><span class="sk" id="osk"></span><button data-os="android" type="button">Android</button><button data-os="ios" type="button">iOS</button><button data-os="pc" type="button">کامپیوتر</button></div>
+   <div class="apl" id="apps"></div>
+  </div>
+  <div class="card">
+   <div class="lbl"><h2>اتصال در ۳ قدم</h2><span>کمتر از یک دقیقه</span></div>
+   <div class="stp">
+    <div class="sline"><i></i></div>
+    <div class="sx"><span class="so"><svg class="ic"><use href="#i-down"/></svg></span><b>نصب اپ</b><small>از لیست بالا</small></div>
+    <div class="sx"><span class="so"><svg class="ic"><use href="#i-plus"/></svg></span><b>افزودن</b><small>با یک لمس</small></div>
+    <div class="sx"><span class="so"><svg class="ic"><use href="#i-bolt"/></svg></span><b>اتصال</b><small>دکمه‌ی وصل شو</small></div>
+   </div>
+   <div class="tip"><svg class="ic"><use href="#i-info"/></svg><span>اگه اپ باز نشد، لینک خودکار کپی میشه، توی اپ از بخش افزودن اشتراک واردش کن. هر چند روز هم اشتراک رو توی اپ آپدیت کن.</span></div>
+  
+  </div>
+ </section>
+
+ <section class="view" id="v-srv">
+  <div class="card">
+   <div class="lbl"><h2>سرورها</h2><span id="ccount"></span></div>
+   <div class="srch"><svg class="ic" style="color:#8a9087"><use href="#i-search"/></svg><input id="q" type="search" placeholder="جستجوی سرور..." autocomplete="off"></div>
+   <div class="flt" id="flt"></div>
+   <div id="cfgs"></div>
+   <div class="pad"><button class="btn" id="copyall" type="button"><svg class="ic"><use href="#i-copy"/></svg><span>کپی همه</span></button></div>
+  </div>
+  <div class="card ipc" id="ipcard">
+   <div class="lbl"><h2>آی‌پی تمیز</h2><span class="chip hold" id="ipchip"><i></i><b>خاموش</b></span></div>
+   <p class="ipd">اگه با اینترنتت کانفیگ‌ها وصل نمیشن یا کندن، فایل آی‌پی‌هات رو بده. هر آی‌پی واقعاً تست میشه و فقط اونایی که به سرور ما می‌رسن توی کانفیگ‌هات میان.</p>
+   <div class="ipl hide" id="iplist"></div>
+   <div class="iplk hide" id="iplink">
+    <small>لینک اشتراک با آی‌پی (این لینک رو توی اپ اضافه کن)</small>
+    <div class="iplr"><code id="ipurl" dir="ltr"></code><button class="ib" id="ipcopy" type="button" aria-label="کپی"><svg class="ic"><use href="#i-copy"/></svg></button><button class="ib" id="ipqr" type="button" aria-label="QR"><svg class="ic"><use href="#i-qr"/></svg></button></div>
+   </div>
+   <div class="pad ipb">
+    <label class="btn pri" id="ipup"><svg class="ic"><use href="#i-plus"/></svg><span>آپلود فایل آی‌پی</span><input type="file" id="ipfile" accept=".txt,.csv,.json,.conf,.list,text/plain,text/csv,application/json" multiple hidden></label>
+    <div class="ipb2"><button class="btn" id="ippaste" type="button"><svg class="ic"><use href="#i-list"/></svg><span>نوشتن یا چسباندن آی‌پی</span></button><button class="btn hide" id="ipdel" type="button"><svg class="ic"><use href="#i-x"/></svg><span>خاموش کن</span></button></div>
+   </div>
+  </div>
+ </section>
+
+ <section class="view" id="v-ch">
+  <div class="card ch">
+   <div class="avw"><span class="w"></span><span class="w w2"></span><span class="jav lg"><svg class="jr" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="24.5" fill="none" stroke="url(#sg)" stroke-width="2.4" stroke-linecap="round" pathLength="100" stroke-dasharray="21 4"/></svg><span class="ji">J</span><span class="jb"><svg class="ic"><use href="#i-tg"/></svg></span></span></div>
+   <div class="hd2">Super JinX<svg class="ver"><use href="#i-ver"/></svg></div>
+   <p class="hdl">@Super_Jinx</p>
+   <div class="phone"><div class="ph-notch"></div><div class="ph-top"><svg class="ic bk"><use href="#i-chev"/></svg><span class="jav sm"><svg class="jr" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="24.5" fill="none" stroke="url(#sg)" stroke-width="2.4" stroke-linecap="round" pathLength="100" stroke-dasharray="21 4"/></svg><span class="ji">J</span><span class="jb"><svg class="ic"><use href="#i-tg"/></svg></span></span><div class="ph-n"><b>Super JinX<svg class="ver"><use href="#i-ver"/></svg></b><small>کانال رسمی</small></div></div><div class="ph-feed"><div class="ph-scroll"><div class="pp"><div class="pth t1"><span class="tg1">NEW</span><span class="tg2">SERVER</span></div><div class="ppb"><b>سرور جدید اضافه شد</b><p>سرورهای تازه با سرعت بالا اضافه شدن، اشتراکت رو توی اپ آپدیت کن.</p><div class="ppm"><svg class="ic"><use href="#i-eye"/></svg><span>Super JinX</span><svg class="ic dk"><use href="#i-dchk"/></svg></div></div></div><div class="pp"><div class="pth t2"><span class="play"><svg class="ic"><use href="#i-play"/></svg></span></div><div class="ppb"><b>آموزش اتصال در ۳ قدم</b><p>ویدیوی آموزش اتصال برای اندروید، آیفون و کامپیوتر.</p><div class="ppm"><svg class="ic"><use href="#i-eye"/></svg><span>Super JinX</span><svg class="ic dk"><use href="#i-dchk"/></svg></div></div></div><div class="pp"><div class="pth t3"><span class="bolt"><svg class="ic"><use href="#i-bolt"/></svg></span></div><div class="ppb"><b>اطلاع‌رسانی فوری</b><p>هر قطعی یا آپدیتی داشته باشیم، اول همین‌جا خبر میدیم.</p><div class="ppm"><svg class="ic"><use href="#i-eye"/></svg><span>Super JinX</span><svg class="ic dk"><use href="#i-dchk"/></svg></div></div></div><div class="pp"><div class="pth t4"><span class="gift"><svg class="ic"><use href="#i-gift"/></svg></span></div><div class="ppb"><b>هدیه‌ی اعضای کانال</b><p>کانفیگ‌ها و پیشنهادهای ویژه فقط برای اعضای کانال.</p><div class="ppm"><svg class="ic"><use href="#i-eye"/></svg><span>Super JinX</span><svg class="ic dk"><use href="#i-dchk"/></svg></div></div></div><div class="pp"><div class="pth t1"><span class="tg1">NEW</span><span class="tg2">SERVER</span></div><div class="ppb"><b>سرور جدید اضافه شد</b><p>سرورهای تازه با سرعت بالا اضافه شدن، اشتراکت رو توی اپ آپدیت کن.</p><div class="ppm"><svg class="ic"><use href="#i-eye"/></svg><span>Super JinX</span><svg class="ic dk"><use href="#i-dchk"/></svg></div></div></div><div class="pp"><div class="pth t2"><span class="play"><svg class="ic"><use href="#i-play"/></svg></span></div><div class="ppb"><b>آموزش اتصال در ۳ قدم</b><p>ویدیوی آموزش اتصال برای اندروید، آیفون و کامپیوتر.</p><div class="ppm"><svg class="ic"><use href="#i-eye"/></svg><span>Super JinX</span><svg class="ic dk"><use href="#i-dchk"/></svg></div></div></div><div class="pp"><div class="pth t3"><span class="bolt"><svg class="ic"><use href="#i-bolt"/></svg></span></div><div class="ppb"><b>اطلاع‌رسانی فوری</b><p>هر قطعی یا آپدیتی داشته باشیم، اول همین‌جا خبر میدیم.</p><div class="ppm"><svg class="ic"><use href="#i-eye"/></svg><span>Super JinX</span><svg class="ic dk"><use href="#i-dchk"/></svg></div></div></div><div class="pp"><div class="pth t4"><span class="gift"><svg class="ic"><use href="#i-gift"/></svg></span></div><div class="ppb"><b>هدیه‌ی اعضای کانال</b><p>کانفیگ‌ها و پیشنهادهای ویژه فقط برای اعضای کانال.</p><div class="ppm"><svg class="ic"><use href="#i-eye"/></svg><span>Super JinX</span><svg class="ic dk"><use href="#i-dchk"/></svg></div></div></div></div></div><a class="ph-join ch-link" href="#">عضویت در کانال</a></div>
+   <div class="chb">
+    <a class="btn tg ch-link" href="#"><svg class="ic"><use href="#i-tg"/></svg>عضویت در کانال</a>
+    <button class="btn" id="share" type="button"><svg class="ic"><use href="#i-share"/></svg>معرفی به دوستات</button>
+   </div>
+  </div>
+  <div class="foot">ساخته‌شده برای <a class="ch-link" href="#">جینکس | <span class="lat">Super JinX</span></a></div>
+ </section>
+ </div>
+</div>
+
+<div class="navfade" aria-hidden="true"></div>
+<nav class="nav" id="nav" aria-label="منو">
+ <span class="pill" id="pill"></span>
+ <button class="on" data-v="home" type="button"><svg class="ic"><use href="#i-home"/></svg><span class="t">وضعیت</span></button>
+ <button data-v="con" type="button"><svg class="ic"><use href="#i-bolt"/></svg><span class="t">اتصال</span></button>
+ <button data-v="srv" type="button"><svg class="ic"><use href="#i-list"/></svg><span class="t">سرورها</span></button>
+ <button class="nbot" id="navset" type="button"><svg class="ic"><use href="#i-gear"/></svg><span class="t">تنظیمات</span><span class="ndot"></span></button>
+ <button data-v="ch" type="button"><svg class="ic"><use href="#i-tg"/></svg><span class="t">کانال</span><span class="dot" id="chdot"></span></button>
+</nav>
+
+<div class="ov" id="appsheet" aria-hidden="true"><div class="card sheet" role="dialog" aria-modal="true">
+ <h3>اتصال با یک لمس</h3><p>اپی که نصب داری رو انتخاب کن.</p>
+ <div class="seg" id="os2" style="margin:0 0 4px"><span class="sk"></span><button data-os="android" type="button">Android</button><button data-os="ios" type="button">iOS</button><button data-os="pc" type="button">کامپیوتر</button></div>
+ <div class="apl" id="apps2" style="padding:10px 0 0"></div>
+ <div class="row3" style="grid-template-columns:1fr"><button class="btn" data-close type="button"><svg class="ic"><use href="#i-x"/></svg>بستن</button></div>
+</div></div>
+<div class="ov" id="qrsheet" aria-hidden="true"><div class="card sheet" role="dialog" aria-modal="true">
+ <h3 id="qrt">QR</h3><p>با دوربین یا بخش اسکن اپ، اسکنش کن.</p>
+ <div class="qrw"><canvas id="qrc" width="900" height="900" class="hide"></canvas><img id="qri" alt="QR"></div><p class="qh">برای ذخیره می‌تونی انگشتت رو روی QR نگه داری.</p>
+ <div class="row3">
+  <button class="btn" id="qrsave" type="button"><svg class="ic"><use href="#i-down"/></svg>ذخیره</button>
+  <button class="btn" id="qrcopy" type="button"><svg class="ic"><use href="#i-copy"/></svg>کپی</button>
+  <button class="btn" data-close type="button"><svg class="ic"><use href="#i-x"/></svg>بستن</button>
+ </div>
+</div></div>
+<div class="ov" id="ipsheet" aria-hidden="true"><div class="card sheet ips" role="dialog" aria-modal="true">
+ <div class="shh"><span class="shi"><svg class="ic"><use href="#i-shield"/></svg></span><div><h3>آی‌پی تمیز</h3><p id="ipsub">آی‌پی‌ها رو بده، بقیه‌اش با ما</p></div><button class="ib" data-close type="button" aria-label="بستن"><svg class="ic"><use href="#i-x"/></svg></button></div>
+ <div id="ipin">
+  <textarea id="iptext" dir="ltr" spellcheck="false" placeholder="104.16.1.1&#10;104.17.2.2:443&#10;172.67.0.0/24"></textarea>
+  <p class="iph">هر خط یه آی‌پی. آی‌پی با پورت، رنج (CIDR) و خروجی برنامه‌های اسکن آی‌پی هم قبوله.</p>
+  <div class="row3" style="grid-template-columns:1fr"><button class="btn pri" id="ipgo" type="button"><svg class="ic"><use href="#i-bolt"/></svg><span>شروع تست</span></button></div>
+ </div>
+ <div id="iprun" class="hide">
+  <div class="ipst"><div class="ipsr"><i id="ipst1" class="on">۱</i><div><b>تست روی سرور</b><small id="ipst1t">آیا این آی‌پی به سرور ما می‌رسه؟</small></div></div>
+   <div class="ipsr"><i id="ipst2">۲</i><div><b>تست از اینترنت تو</b><small id="ipst2t">پینگ تقریبی از گوشی خودت</small></div></div></div>
+  <div class="ipbar"><i id="ipbar"></i></div>
+  <div class="ipn"><span id="ipnt">آماده</span><b id="ipnok"></b></div>
+  <div id="ipres" class="ipres"></div>
+  <div id="ipset" class="hide">
+   <small class="ipk">کانفیگ‌ها چطوری باشن؟</small>
+   <div class="seg ipseg" id="ipmode"><span class="sk"></span><button class="on" data-m="both" type="button">آی‌پی + دامنه</button><button data-m="ip" type="button">فقط آی‌پی</button></div>
+   <small class="ipk">برای هر کانفیگ چند تا آی‌پی؟</small>
+   <div class="seg" id="ipper"><span class="sk"></span><button data-p="1" type="button">۱</button><button class="on" data-p="2" type="button">۲</button><button data-p="3" type="button">۳</button></div>
+   <div class="row3" style="grid-template-columns:2fr 1fr"><button class="btn pri" id="ipsave" type="button"><svg class="ic"><use href="#i-check"/></svg><span>ذخیره و ساخت کانفیگ</span></button><button class="btn" id="ipagain" type="button"><svg class="ic"><use href="#i-re"/></svg><span>از اول</span></button></div>
+  </div>
+ </div>
+</div></div>
+<div class="ov" id="setsheet" aria-hidden="true"><div class="card sheet sets" role="dialog" aria-modal="true">
+ <div class="shh"><span class="shi"><svg class="ic"><use href="#i-gear"/></svg></span><div><h3>تنظیمات</h3><p>سلامت سیستم و شخصی‌سازی</p></div><button class="ib" data-close type="button" aria-label="بستن"><svg class="ic"><use href="#i-x"/></svg></button></div>
+ <div class="doc">
+  <div class="doc-top"><div class="doc-ring" id="docring"><svg viewBox="0 0 110 110"><circle cx="55" cy="55" r="48" class="trk"/><circle cx="55" cy="55" r="48" class="arc" id="docarc"/></svg><span class="dci"><svg class="ic"><use href="#i-cpu"/></svg></span><span class="dpc"><b id="docpct">۱۰۰</b>٪</span></div>
+   <div class="doc-t"><small>دستیار هوشمند سیستم</small><b id="docst">سیستم سالمه</b><span id="docsub">دستیار هوشمند داره مراقبت می‌کنه</span></div></div>
+  <div class="doc-m"><div><small>روونی</small><b id="mfps" class="lat">60 fps</b></div><div><small>تعمیر خودکار</small><b id="mfix">۰</b></div><div><small>آخرین بررسی</small><b id="mlast">همین الان</b></div></div>
+  <div class="dsteps hide" id="docsteps"></div>
+  <div class="doclog" id="doclog"></div>
+  <button class="btn pri" id="docrun" type="button"><svg class="ic"><use href="#i-search"/></svg>اسکن و تعمیر الان</button>
+ </div>
+ <div class="setl">
+  <div class="sr"><span class="sri"><svg class="ic"><use href="#i-shield"/></svg></span><div><b>تعمیر خودکار</b><small>اگه جایی خراب شد، خودش سریع درستش می‌کنه</small></div><button class="tgl" id="tAuto" type="button" role="switch" aria-label="تعمیر خودکار"><i></i></button></div>
+  <div class="sr col"><div class="srh"><span class="sri"><svg class="ic"><use href="#i-bolt"/></svg></span><div><b>حالت اجرا</b><small>برای گوشی‌های ضعیف «سبک» رو بزن</small></div></div>
+   <div class="pseg" id="perf"><span class="sk"></span><button data-p="auto" type="button">خودکار</button><button data-p="full" type="button">کامل</button><button data-p="lite" type="button">سبک</button><button data-p="off" type="button">بدون انیمیشن</button></div></div>
+  <div class="sr"><span class="sri"><svg class="ic"><use href="#i-chat"/></svg></span><div><b>لرزش لمسی</b><small>لرزش کوچیک موقع زدن دکمه‌ها</small></div><button class="tgl" id="tVib" type="button" role="switch" aria-label="لرزش لمسی"><i></i></button></div>
+  <button class="sr lk" id="opentheme" type="button"><span class="sri"><svg class="ic"><use href="#i-pal"/></svg></span><div><b>تم صفحه</b><small>طلایی، لیمویی، بنفش، فیروزه‌ای</small></div><svg class="ic chv"><use href="#i-chev"/></svg></button>
+  <button class="sr lk dg" id="resetall" type="button"><span class="sri"><svg class="ic"><use href="#i-re"/></svg></span><div><b>بازنشانی تنظیمات</b><small>همه‌چیز برمی‌گرده به حالت اول</small></div><svg class="ic chv"><use href="#i-chev"/></svg></button>
+ </div>
+</div></div>
+<div class="ov" id="joinok" aria-hidden="true"><div class="card sheet jok" role="dialog" aria-modal="true">
+ <div class="jok-av"><span class="jw"></span><span class="jw w2"></span><span class="jc"><svg class="ic"><use href="#i-check"/></svg></span></div>
+ <h3>به خانواده‌ی <span class="lat">Super JinX</span> خوش اومدی</h3>
+ <p>ممنون که به کانال سر زدی. اگه عضو شدی، از این به بعد سرورهای جدید، آموزش‌ها و خبرها رو زودتر از همه می‌بینی.</p>
+ <div class="row3" style="grid-template-columns:1fr"><button class="btn pri" id="joinbtn" type="button">عالیه، بریم</button></div>
+</div></div>
+<div class="ov" id="chsheet" aria-hidden="true"><div class="card sheet chs" role="dialog" aria-modal="true">
+ <div class="chs-h"><span class="jav"><svg class="jr" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="24.5" fill="none" stroke="url(#sg)" stroke-width="2.4" stroke-linecap="round" pathLength="100" stroke-dasharray="21 4"/></svg><span class="ji">J</span><span class="jb"><svg class="ic"><use href="#i-tg"/></svg></span></span><div><h3>Super JinX<svg class="ver"><use href="#i-ver"/></svg></h3><p>کانال رسمی جینکس در تلگرام</p></div></div>
+ <div class="phone"><div class="ph-notch"></div><div class="ph-top"><svg class="ic bk"><use href="#i-chev"/></svg><span class="jav sm"><svg class="jr" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="24.5" fill="none" stroke="url(#sg)" stroke-width="2.4" stroke-linecap="round" pathLength="100" stroke-dasharray="21 4"/></svg><span class="ji">J</span><span class="jb"><svg class="ic"><use href="#i-tg"/></svg></span></span><div class="ph-n"><b>Super JinX<svg class="ver"><use href="#i-ver"/></svg></b><small>کانال رسمی</small></div></div><div class="ph-feed"><div class="ph-scroll"><div class="pp"><div class="pth t1"><span class="tg1">NEW</span><span class="tg2">SERVER</span></div><div class="ppb"><b>سرور جدید اضافه شد</b><p>سرورهای تازه با سرعت بالا اضافه شدن، اشتراکت رو توی اپ آپدیت کن.</p><div class="ppm"><svg class="ic"><use href="#i-eye"/></svg><span>Super JinX</span><svg class="ic dk"><use href="#i-dchk"/></svg></div></div></div><div class="pp"><div class="pth t2"><span class="play"><svg class="ic"><use href="#i-play"/></svg></span></div><div class="ppb"><b>آموزش اتصال در ۳ قدم</b><p>ویدیوی آموزش اتصال برای اندروید، آیفون و کامپیوتر.</p><div class="ppm"><svg class="ic"><use href="#i-eye"/></svg><span>Super JinX</span><svg class="ic dk"><use href="#i-dchk"/></svg></div></div></div><div class="pp"><div class="pth t3"><span class="bolt"><svg class="ic"><use href="#i-bolt"/></svg></span></div><div class="ppb"><b>اطلاع‌رسانی فوری</b><p>هر قطعی یا آپدیتی داشته باشیم، اول همین‌جا خبر میدیم.</p><div class="ppm"><svg class="ic"><use href="#i-eye"/></svg><span>Super JinX</span><svg class="ic dk"><use href="#i-dchk"/></svg></div></div></div><div class="pp"><div class="pth t4"><span class="gift"><svg class="ic"><use href="#i-gift"/></svg></span></div><div class="ppb"><b>هدیه‌ی اعضای کانال</b><p>کانفیگ‌ها و پیشنهادهای ویژه فقط برای اعضای کانال.</p><div class="ppm"><svg class="ic"><use href="#i-eye"/></svg><span>Super JinX</span><svg class="ic dk"><use href="#i-dchk"/></svg></div></div></div><div class="pp"><div class="pth t1"><span class="tg1">NEW</span><span class="tg2">SERVER</span></div><div class="ppb"><b>سرور جدید اضافه شد</b><p>سرورهای تازه با سرعت بالا اضافه شدن، اشتراکت رو توی اپ آپدیت کن.</p><div class="ppm"><svg class="ic"><use href="#i-eye"/></svg><span>Super JinX</span><svg class="ic dk"><use href="#i-dchk"/></svg></div></div></div><div class="pp"><div class="pth t2"><span class="play"><svg class="ic"><use href="#i-play"/></svg></span></div><div class="ppb"><b>آموزش اتصال در ۳ قدم</b><p>ویدیوی آموزش اتصال برای اندروید، آیفون و کامپیوتر.</p><div class="ppm"><svg class="ic"><use href="#i-eye"/></svg><span>Super JinX</span><svg class="ic dk"><use href="#i-dchk"/></svg></div></div></div><div class="pp"><div class="pth t3"><span class="bolt"><svg class="ic"><use href="#i-bolt"/></svg></span></div><div class="ppb"><b>اطلاع‌رسانی فوری</b><p>هر قطعی یا آپدیتی داشته باشیم، اول همین‌جا خبر میدیم.</p><div class="ppm"><svg class="ic"><use href="#i-eye"/></svg><span>Super JinX</span><svg class="ic dk"><use href="#i-dchk"/></svg></div></div></div><div class="pp"><div class="pth t4"><span class="gift"><svg class="ic"><use href="#i-gift"/></svg></span></div><div class="ppb"><b>هدیه‌ی اعضای کانال</b><p>کانفیگ‌ها و پیشنهادهای ویژه فقط برای اعضای کانال.</p><div class="ppm"><svg class="ic"><use href="#i-eye"/></svg><span>Super JinX</span><svg class="ic dk"><use href="#i-dchk"/></svg></div></div></div></div></div><a class="ph-join ch-link" href="#">عضویت در کانال</a></div>
+ <div class="row3" style="grid-template-columns:2fr 1fr"><a class="btn tg ch-link" href="#"><svg class="ic"><use href="#i-tg"/></svg>عضویت در کانال</a><button class="btn" data-close type="button">بعداً</button></div>
+</div></div>
+<div class="ov" id="thsheet" aria-hidden="true"><div class="card sheet" role="dialog" aria-modal="true">
+ <h3>استودیو تم</h3><p>تم دلخواهت رو انتخاب کن، فوری عوض میشه و روی همین دستگاه ذخیره می‌مونه.</p>
+ <div class="ths" id="ths"></div>
+ <div class="row3" style="grid-template-columns:1fr"><button class="btn" data-close type="button"><svg class="ic"><use href="#i-x"/></svg>بستن</button></div>
+</div></div>
+<div class="toast" id="toast" role="status" aria-live="polite"><svg class="ic"><use href="#i-check"/></svg><span></span></div>
+
+<script>
+var QR=(function(){
+var ECC_CW=[[-1,7,10,15,20,26,18,20,24,30,18,20,24,26,30,22,24,28,30,28,28,28,28,30,30,26,28,30,30,30,30,30,30,30,30,30,30,30,30,30,30],[-1,10,16,26,18,24,16,18,22,22,26,30,22,22,24,24,28,28,26,26,26,26,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28]];
+var NB=[[-1,1,1,1,1,1,2,2,2,2,4,4,4,4,4,6,6,6,6,7,8,8,9,9,10,12,12,12,13,14,15,16,17,18,19,19,20,21,22,24,25],[-1,1,1,1,2,2,4,4,4,5,5,5,8,9,9,10,10,11,13,14,16,17,17,18,20,21,23,25,26,28,29,31,33,35,37,38,40,43,45,47,49]];
+// index 0 = L, 1 = M ; format bits: L=1, M=0
+function rawMods(v){var r=(16*v+128)*v+64;if(v>=2){var n=Math.floor(v/7)+2;r-=(25*n-10)*n-55;if(v>=7)r-=36}return r}
+function dataCw(v,e){return Math.floor(rawMods(v)/8)-ECC_CW[e][v]*NB[e][v]}
+function rsMul(x,y){var z=0;for(var i=7;i>=0;i--){z=(z<<1)^((z>>>7)*0x11D);z^=((y>>>i)&1)*x}return z&255}
+function rsDiv(deg){var r=[];for(var i=0;i<deg-1;i++)r.push(0);r.push(1);var root=1;for(var i=0;i<deg;i++){for(var j=0;j<r.length;j++){r[j]=rsMul(r[j],root);if(j+1<r.length)r[j]^=r[j+1]}root=rsMul(root,2)}return r}
+function rsRem(data,div){var r=div.map(function(){return 0});data.forEach(function(b){var f=b^r.shift();r.push(0);div.forEach(function(c,i){r[i]^=rsMul(c,f)})});return r}
+function utf8(s){return Array.from(unescape(encodeURIComponent(s))).map(function(c){return c.charCodeAt(0)})}
+function encode(text){
+ var bytes=utf8(text),e=1,v,bits=[];
+ function app(val,len){for(var i=len-1;i>=0;i--)bits.push((val>>>i)&1)}
+ for(v=1;v<=40;v++){var cc=v<10?8:16;if(4+cc+bytes.length*8<=dataCw(v,e)*8)break}
+ if(v>40)throw "too long";
+ app(4,4);app(bytes.length,v<10?8:16);bytes.forEach(function(b){app(b,8)});
+ var cap=dataCw(v,e)*8;app(0,Math.min(4,cap-bits.length));app(0,(8-bits.length%8)%8);
+ for(var p=0xEC;bits.length<cap;p^=0xEC^0x11)app(p,8);
+ var dc=[];for(var i=0;i<bits.length;i+=8){var b=0;for(var j=0;j<8;j++)b=(b<<1)|bits[i+j];dc.push(b)}
+ // ecc + interleave
+ var nb=NB[e][v],ecl=ECC_CW[e][v],raw=Math.floor(rawMods(v)/8),ns=nb-raw%nb,sl=Math.floor(raw/nb),blocks=[],div=rsDiv(ecl);
+ for(var i=0,k=0;i<nb;i++){var d=dc.slice(k,k+sl-ecl+(i<ns?0:1));k+=d.length;var ec=rsRem(d,div);if(i<ns)d.push(0);blocks.push(d.concat(ec))}
+ var res=[];for(var i=0;i<blocks[0].length;i++)blocks.forEach(function(b,j){if(i!=sl-ecl||j>=ns)res.push(b[i])});
+ var size=v*4+17,M=[],F=[];for(var i=0;i<size;i++){M.push(new Array(size).fill(false));F.push(new Array(size).fill(false))}
+ function set(x,y,d){M[y][x]=d;F[y][x]=true}
+ for(var i=0;i<size;i++){set(6,i,i%2==0);set(i,6,i%2==0)}
+ function finder(x,y){for(var dy=-4;dy<=4;dy++)for(var dx=-4;dx<=4;dx++){var d=Math.max(Math.abs(dx),Math.abs(dy)),xx=x+dx,yy=y+dy;if(xx>=0&&xx<size&&yy>=0&&yy<size)set(xx,yy,d!=2&&d!=4)}}
+ finder(3,3);finder(size-4,3);finder(3,size-4);
+ var ap=[];if(v>1){var n=Math.floor(v/7)+2,st=(v==32)?26:Math.ceil((v*4+4)/(n*2-2))*2;ap=[6];for(var p=size-7;ap.length<n;p-=st)ap.splice(1,0,p)}
+ ap.forEach(function(a,i){ap.forEach(function(b,j){if((i==0&&j==0)||(i==0&&j==ap.length-1)||(i==ap.length-1&&j==0))return;for(var dy=-2;dy<=2;dy++)for(var dx=-2;dx<=2;dx++)set(a+dx,b+dy,Math.max(Math.abs(dx),Math.abs(dy))!=1)})});
+ function fmt(mask){var data=(e==1?0:1)<<3|mask,r=data;for(var i=0;i<10;i++)r=(r<<1)^((r>>>9)*0x537);var b=(data<<10|r)^0x5412;
+  for(var i=0;i<=5;i++)set(8,i,(b>>>i)&1);set(8,7,(b>>>6)&1);set(8,8,(b>>>7)&1);set(7,8,(b>>>8)&1);for(var i=9;i<15;i++)set(14-i,8,(b>>>i)&1);
+  for(var i=0;i<8;i++)set(size-1-i,8,(b>>>i)&1);for(var i=8;i<15;i++)set(8,size-15+i,(b>>>i)&1);set(8,size-8,true)}
+ fmt(0);
+ if(v>=7){var r=v;for(var i=0;i<12;i++)r=(r<<1)^((r>>>11)*0x1F25);var b=v<<12|r;for(var i=0;i<18;i++){var bt=(b>>>i)&1,a=size-11+i%3,c=Math.floor(i/3);set(a,c,bt);set(c,a,bt)}}
+ // place data
+ var i=0;for(var right=size-1;right>=1;right-=2){if(right==6)right=5;for(var vert=0;vert<size;vert++)for(var j=0;j<2;j++){var x=right-j,up=((right+1)&2)==0,y=up?size-1-vert:vert;if(!F[y][x]&&i<res.length*8){M[y][x]=((res[i>>>3]>>>(7-(i&7)))&1)==1;i++}}}
+ function applyMask(m){for(var y=0;y<size;y++)for(var x=0;x<size;x++){var inv;switch(m){case 0:inv=(x+y)%2==0;break;case 1:inv=y%2==0;break;case 2:inv=x%3==0;break;case 3:inv=(x+y)%3==0;break;case 4:inv=(Math.floor(x/3)+Math.floor(y/2))%2==0;break;case 5:inv=x*y%2+x*y%3==0;break;case 6:inv=(x*y%2+x*y%3)%2==0;break;default:inv=((x+y)%2+x*y%3)%2==0}if(!F[y][x]&&inv)M[y][x]=!M[y][x]}}
+ function penalty(){var r=0,dark=0;
+  for(var pass=0;pass<2;pass++)for(var a=0;a<size;a++){var run=0,col=null;for(var b=0;b<size;b++){var c=pass?M[b][a]:M[a][b];if(c===col){run++;if(run==5)r+=3;else if(run>5)r++}else{col=c;run=1}}}
+  for(var y=0;y<size-1;y++)for(var x=0;x<size-1;x++){var c=M[y][x];if(c==M[y][x+1]&&c==M[y+1][x]&&c==M[y+1][x+1])r+=3}
+  var pat=[true,false,true,true,true,false,true];
+  for(var pass=0;pass<2;pass++)for(var a=0;a<size;a++)for(var b=0;b<=size-7;b++){var ok=true;for(var k=0;k<7;k++){var c=pass?M[b+k][a]:M[a][b+k];if(c!==pat[k]){ok=false;break}}
+   if(ok){var before=true,after=true;for(var k=1;k<=4;k++){var p1=b-k,p2=b+6+k;if(p1>=0&&(pass?M[p1][a]:M[a][p1]))before=false;if(p2<size&&(pass?M[p2][a]:M[a][p2]))after=false}if(before||after)r+=40}}
+  M.forEach(function(row){row.forEach(function(c){if(c)dark++})});var tot=size*size,k=Math.ceil(Math.abs(dark*20-tot*10)/tot)-1;r+=k*10;return r}
+ var best=0,bp=1e9;for(var m=0;m<8;m++){applyMask(m);fmt(m);var p=penalty();if(p<bp){bp=p;best=m}applyMask(m)}
+ applyMask(best);fmt(best);return M}
+function draw(canvas,text,opt){opt=opt||{};var M=encode(text),n=M.length,q=4,sz=canvas.width,s=sz/(n+q*2),ctx=canvas.getContext("2d");
+ ctx.fillStyle=opt.bg||"#fff";ctx.fillRect(0,0,sz,sz);ctx.fillStyle=opt.fg||"#0f172a";
+ for(var y=0;y<n;y++)for(var x=0;x<n;x++)if(M[y][x]){ctx.fillRect(Math.floor((x+q)*s),Math.floor((y+q)*s),Math.ceil(s),Math.ceil(s))}}
+return {encode:encode,draw:draw}})();
+if(typeof module!="undefined")module.exports=QR;
+
+</script>
+<script>
+(function(){
+"use strict";
+var CHANNEL="https://t.me/+WvKFv0lU_i5lNGE0";
+var SUPPORT=CHANNEL; /* لینک پشتیبانی، مثلا https://t.me/YourSupportID */
+var NL=String.fromCharCode(10);
+function $(s){return document.getElementById(s)}
+function qa(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))}
+function fa(v){return String(v).replace(/[0-9]/g,function(d){return "۰۱۲۳۴۵۶۷۸۹".charAt(+d)})}
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
+function ico(n){var ns="http://www.w3.org/2000/svg",s=document.createElementNS(ns,"svg"),u=document.createElementNS(ns,"use");s.setAttribute("class","ic");u.setAttribute("href","#i-"+n);s.appendChild(u);return s}
+var touched=false;addEventListener("pointerdown",function(){touched=true},{once:true,capture:true});
+function vib(n){if(!touched)return;try{if(localStorage.getItem("jx_vib")==="0")return}catch(e){}try{if(navigator.vibrate)navigator.vibrate(n||12)}catch(e){}}
+var RM=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* channel links */
+qa(".ch-link").forEach(function(a){a.href=CHANNEL;a.target="_blank";a.rel="noopener"});
+
+/* intro */
+(function(){var it=$("intro");if(!it)return;var seen=false;try{seen=sessionStorage.getItem("jx_i")==="1";sessionStorage.setItem("jx_i","1")}catch(e){}
+ function done(){if(!it)return;it.classList.add("out");var x=it;it=null;setTimeout(function(){if(x&&x.parentNode)x.parentNode.removeChild(x)},700)}
+ if(seen||RM){var p=it;it=null;p.parentNode.removeChild(p)}else setTimeout(done,1550)})();
+
+/* data */
+var D=null,DEMO=false;try{D=JSON.parse($("jx-data").textContent)}catch(e){D=null}
+if(!D||typeof D!=="object"){DEMO=true;var _n=Math.floor(Date.now()/1000);D={username:"demo_user",status:"active",used:38.3*1073741824,limit:100*1073741824,expire:_n+86400*27,announce:"",links:["vless://00000000-0000-0000-0000-000000000000@example.com:443?type=ws&security=tls#Germany%20%7C%20JinX","trojan://demo@example.com:443?type=grpc&security=reality#Finland%20%7C%20JinX","vless://00000000-0000-0000-0000-000000000000@example.com:443?type=tcp&security=reality#Netherlands%20%7C%20JinX"]};
+ var _b=el("div","demo","حالت پیش‌نمایش: روی پنل، اطلاعات واقعی هر کاربر نمایش داده میشه");var _h=document.querySelector(".news");_h.parentNode.insertBefore(_b,_h)}
+var used=+D.used||0,limit=+D.limit||0,expire=+D.expire||0,links=Array.isArray(D.links)?D.links.filter(function(x){return typeof x==="string"&&x.trim()}):[];
+var status=String(D.status||"active").toLowerCase().replace("userstatus.","");
+function sz(b){b=+b||0;if(b>=1099511627776)return String(+(b/1099511627776).toFixed(2))+" TB";if(b>=1073741824)return (b/1073741824).toFixed(b>=107374182400?0:1)+" GB";if(b>=1048576)return (b/1048576).toFixed(0)+" MB";return (b/1024).toFixed(0)+" KB"}
+var rem=limit?Math.max(0,limit-used):0,ratio=limit?rem/limit:1,now=Date.now()/1000,days=expire?Math.max(0,Math.floor((expire-now)/86400)):-1;
+
+$("uname").textContent=D.username||"-";
+var ST={active:["فعال","ok"],on_hold:["در انتظار","hold"],limited:["حجم تمام","bad"],expired:["منقضی","bad"],disabled:["غیرفعال","bad"]};
+var st=ST[status]||ST.active;if(status==="active"&&(days>=0&&days<=3||limit&&ratio<.1))st=["رو به اتمام","warn"];
+var chip=$("chip");chip.className="chip "+st[1];chip.querySelector("span").textContent=st[0];
+
+var unitFa=function(t){return fa(t).replace(" GB"," گیگ").replace(" TB"," ترابایت").replace(" MB"," مگ")};
+$("ofTotal").textContent=limit?("از "+unitFa(sz(limit))):"حجم نامحدود";
+$("used").textContent=sz(used);
+$("days").textContent=days<0?"نامحدود":fa(days)+" روز";
+var ex=$("exp");if(!expire)ex.textContent="ندارد";else{try{ex.textContent=new Date(expire*1000).toLocaleDateString("fa-IR",{month:"long",day:"numeric"})}catch(e){ex.textContent=fa(new Date(expire*1000).toISOString().slice(0,10))}}
+var up=limit?Math.min(100,used/limit*100):0;
+$("pcv").textContent=limit?(Math.round(ratio*100)+"%"):"UNLIMITED";
+$("tpct").textContent=limit?(fa(Math.round(up))+"٪ از "+unitFa(sz(limit))):"بدون محدودیت";
+var G=$("gauge");if(st[1]==="warn")G.classList.add("warn");else if(st[1]==="bad")G.classList.add("bad");
+var TL=[],TON=0;function rgbv(n){var v=getComputedStyle(document.documentElement).getPropertyValue(n).trim().split(",");return v.length===3?v.map(Number):[198,255,61]}
+var CA=rgbv("--acr"),CB=rgbv("--ac3r");
+function paintTick(k){if(st[1]==="warn"||st[1]==="bad"||!TL[k])return;var f=TON>1?k/(TON-1):0;TL[k].style.stroke="rgb("+Math.round(CA[0]+(CB[0]-CA[0])*f)+","+Math.round(CA[1]+(CB[1]-CA[1])*f)+","+Math.round(CA[2]+(CB[2]-CA[2])*f)+")"}
+function repaintTicks(){CA=rgbv("--acr");CB=rgbv("--ac3r");for(var i=0;i<TL.length;i++)if(TL[i].classList.contains("on"))paintTick(i)}
+function buildTicks(){var g=$("ticks"),ns="http://www.w3.org/2000/svg",N=72,on=limit?Math.round(ratio*N):N,L=TL;g.textContent="";TL.length=0;
+ if(st[1]==="bad"&&limit&&on<1)on=1;TON=on;
+ for(var i=0;i<N;i++){var a=(i/N)*Math.PI*2-Math.PI/2,c=Math.cos(a),s2=Math.sin(a),r1=i%6===0?103:108,r2=122,l=document.createElementNS(ns,"line");
+  l.setAttribute("x1",(132+c*r1).toFixed(2));l.setAttribute("y1",(132+s2*r1).toFixed(2));l.setAttribute("x2",(132+c*r2).toFixed(2));l.setAttribute("y2",(132+s2*r2).toFixed(2));if(i%18===0)l.setAttribute("class","mj");g.appendChild(l);L.push(l)}
+ var k=0;function step(){if(k>=on)return;L[k].classList.add("on");paintTick(k);k++;if(RM)step();else setTimeout(step,14)}
+ setTimeout(step,RM?0:500)}
+buildTicks();
+(function(){var b=$("tbar"),N=30,on=limit?Math.round(up/100*N):0;if(limit&&used>0&&on<1)on=1;for(var i=0;i<N;i++){var x=el("i");b.appendChild(x);if(i<on)(function(x,i){setTimeout(function(){x.classList.add("on")},RM?0:600+i*25)})(x,i)}})();
+(function(){var r=$("remain");function put(v,u){r.textContent="";r.appendChild(document.createTextNode(v));if(u)r.appendChild(el("em","",u))}
+ if(!limit){put("∞","");return}
+ var gb=rem/1073741824,unit="GB",val=gb,dec=gb>=100?0:1;if(gb>=1024){val=gb/1024;unit="TB";dec=(Math.round(val*100)%100===0)?0:2}else if(gb<1){val=rem/1048576;unit="MB";dec=0}
+ if(RM){put(val.toFixed(dec),unit);return}
+ var t0=0,dur=1400;function f(t){if(!t0)t0=t;var k=Math.min(1,(t-t0)/dur),e=1-Math.pow(1-k,3);put((val*e).toFixed(dec),unit);if(k<1)requestAnimationFrame(f)}
+ put((0).toFixed(dec),unit);setTimeout(function(){requestAnimationFrame(f)},450)})();
+/* notes */
+function note(id,txt,cls){var n=$(id);n.querySelector("span").textContent=txt;if(cls)n.className="note "+cls;n.classList.remove("hide")}
+if(D.announce)note("announce",String(D.announce));
+if(status==="expired")note("warn","اشتراکت منقضی شده. برای تمدید به پشتیبانی پیام بده.","bad");
+else if(status==="limited")note("warn","حجم اشتراکت تموم شده. برای شارژ به پشتیبانی پیام بده.","bad");
+else if(status==="disabled")note("warn","اشتراکت فعلاً غیرفعاله. با پشتیبانی در تماس باش.","bad");
+else if(status==="on_hold")note("warn","اشتراکت با اولین اتصال فعال میشه.","info");
+else if(days>=0&&days<=3)note("warn",days===0?"اشتراکت امروز تموم میشه، یادت نره تمدید کنی.":"فقط "+fa(days)+" روز از اشتراکت مونده.","warn");
+else if(limit&&ratio<.1)note("warn","کمتر از ۱۰٪ حجمت مونده.","warn");
+
+/* countdown */
+(function(){if(!expire||expire<=now)return;var cd=$("cd");cd.classList.remove("hide");var D2=$("cdd"),H=$("cdh"),M=$("cdm"),S=$("cds");function p2(n){return n<10?"0"+n:""+n}
+ function tk(){var r=Math.max(0,Math.floor(expire-Date.now()/1000));D2.textContent=Math.floor(r/86400);H.textContent=p2(Math.floor(r%86400/3600));M.textContent=p2(Math.floor(r%3600/60));S.textContent=p2(r%60)}
+ tk();setInterval(function(){if(!document.hidden)tk()},1000)})();
+/* toast + copy */
+var tt;function toast(m,bad){var t=$("toast");t.querySelector("span").textContent=m;t.querySelector(".ic").style.color=bad?"#f87171":"";t.classList.add("show");clearTimeout(tt);tt=setTimeout(function(){t.classList.remove("show")},1900)}
+function fallbackCopy(s){var ta=el("textarea");ta.value=s;ta.setAttribute("readonly","");ta.style.cssText="position:fixed;top:-1000px;opacity:0";document.body.appendChild(ta);ta.select();ta.setSelectionRange(0,s.length);var ok=false;try{ok=document.execCommand("copy")}catch(e){}document.body.removeChild(ta);return ok}
+function copy(s,btn,msg){function ok(){toast(msg||"کپی شد");vib(15);if(btn){btn.classList.add("ok");setTimeout(function(){btn.classList.remove("ok")},1300)}}
+ function fb(){if(fallbackCopy(s))ok();else toast("کپی نشد، دستی انتخاب کن",1)}
+ if(navigator.clipboard&&window.isSecureContext)navigator.clipboard.writeText(s).then(ok,fb);else fb()}
+
+/* sub url */
+var SUB=(location.origin+location.pathname).replace(/\/+(info|usage|links|clash|clash-meta|sing-box|outline|v2ray|v2ray-json|xray)\/?$/i,"").replace(/\/+$/,"");
+$("suburl").textContent=SUB.replace(/^https?:\/\//,"");
+$("subcopy").onclick=function(){copy(SUB,this,"لینک اشتراک کپی شد")};
+$("subcopy2").onclick=function(){copy(SUB,this,"لینک اشتراک کپی شد")};
+$("subqr").onclick=$("subqr2").onclick=function(){openQR("لینک اشتراک",SUB)};
+
+/* apps */
+var E=encodeURIComponent(SUB),NAME="Super JinX";
+var NE=encodeURIComponent(NAME),B64="";try{B64=btoa(SUB)}catch(e){}
+var DL={
+ hiddify:{android:"https://play.google.com/store/apps/details?id=app.hiddify.com",ios:"https://apps.apple.com/app/id6596777532",pc:"https://github.com/hiddify/hiddify-app/releases/latest"},
+ v2rayng:"https://github.com/2dust/v2rayNG/releases/latest",
+ v2box:{android:"https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box",ios:"https://apps.apple.com/app/id6446814690"},
+ nekobox:"https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/latest",
+ happ:{android:"https://play.google.com/store/apps/details?id=com.happproxy",ios:"https://apps.apple.com/app/id6504287215"},
+ karing:{android:"https://github.com/KaringX/karing/releases/latest",ios:"https://apps.apple.com/app/id6472431552",pc:"https://github.com/KaringX/karing/releases/latest"},
+ streisand:"https://apps.apple.com/app/id6450534064",
+ shadowrocket:"https://apps.apple.com/app/id932747118",
+ clash:"https://github.com/clash-verge-rev/clash-verge-rev/releases/latest",
+ v2rayn:"https://github.com/2dust/v2rayN/releases/latest"};
+var A={
+ hiddify:["Hiddify","hex","#7c3aed,#c084fc","hiddify://import/"+SUB+"#"+NE,"ساده و همه‌کاره، مناسب همه"],
+ v2rayng:["v2rayNG","vee","#15803d,#4ade80","v2rayng://install-sub?url="+E+"&name="+NE,"محبوب‌ترین کلاینت اندروید"],
+ v2box:["V2Box","box","#1d4ed8,#60a5fa","v2box://install-sub?url="+E+"&name="+NE,"رابط شیک و سریع"],
+ nekobox:["NekoBox","cat","#c2410c,#fb923c","sn://subscription?url="+E+"&name="+NE,"حرفه‌ای با تنظیمات کامل"],
+ happ:["Happ","hap","#be185d,#f472b6","happ://add/"+SUB,"خیلی سبک و سریع"],
+ karing:["Karing","wing","#0e7490,#22d3ee","karing://install-config?url="+E+"&name="+NE,"انتخاب خودکار بهترین سرور"],
+ streisand:["Streisand","shd","#334155,#94a3b8","streisand://import/"+SUB+"#"+NE,"رایگان و سریع برای آیفون"],
+ shadowrocket:["Shadowrocket","rkt","#0f172a,#475569","sub://"+B64,"قدرتمند، نسخه‌ی پولی"],
+ clash:["Clash Verge","cat","#4338ca,#a5b4fc","clash://install-config?url="+E+"&name="+NE,"حرفه‌ای برای ویندوز و مک"],
+ v2rayn:["v2rayN","vee","#1e40af,#60a5fa","","کلاینت محبوب ویندوز"]};
+var APPS={android:["hiddify","v2rayng","v2box","happ","karing","nekobox"],ios:["streisand","hiddify","v2box","happ","karing","shadowrocket"],pc:["hiddify","clash","karing","v2rayn"]};
+var GL={hex:'<path d="M12 2.5l8.2 4.75v9.5L12 21.5l-8.2-4.75v-9.5z" fill="none" stroke="#fff" stroke-width="1.9" stroke-linejoin="round"/><path d="M9.2 8v8M14.8 8v8M9.2 12h5.6" stroke="#fff" stroke-width="2.1" stroke-linecap="round"/>',
+ vee:'<path d="M5 5.5l7 13 7-13" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="5.5" r="1.7" fill="#fff"/>',
+ box:'<path d="M12 2.8l8.4 4.6v9.2L12 21.2l-8.4-4.6V7.4z M3.8 7.4l8.2 4.6 8.2-4.6 M12 12v9" fill="none" stroke="#fff" stroke-width="1.9" stroke-linejoin="round"/>',
+ cat:'<path d="M5 4.5l3.2 4h7.6l3.2-4V14a7 7 0 0 1-14 0z" fill="none" stroke="#fff" stroke-width="1.9" stroke-linejoin="round"/><circle cx="9.3" cy="13" r="1.3" fill="#fff"/><circle cx="14.7" cy="13" r="1.3" fill="#fff"/>',
+ hap:'<circle cx="12" cy="12" r="8.6" fill="none" stroke="#fff" stroke-width="1.9"/><path d="M8.3 13.2c1 1.8 2.3 2.6 3.7 2.6s2.7-.8 3.7-2.6" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="9" cy="9.6" r="1.2" fill="#fff"/><circle cx="15" cy="9.6" r="1.2" fill="#fff"/>',
+ wing:'<path d="M3 15.5c4.5-.8 7.6-4 9-10 1.4 6 4.5 9.2 9 10-4.8.9-7.7 2.9-9 6-1.3-3.1-4.2-5.1-9-6z" fill="#fff"/>',
+ shd:'<path d="M12 2.8l7.5 2.8v5.6c0 4.6-3.2 8.3-7.5 9.9-4.3-1.6-7.5-5.3-7.5-9.9V5.6z" fill="none" stroke="#fff" stroke-width="1.9" stroke-linejoin="round"/><path d="M8.6 12l2.4 2.4 4.5-4.8" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>',
+ rkt:'<path d="M12 2.5c3.2 2.2 4.8 6 4.6 10.6L15 16.5H9l-1.6-3.4C7.2 8.5 8.8 4.7 12 2.5z" fill="none" stroke="#fff" stroke-width="1.9" stroke-linejoin="round"/><circle cx="12" cy="9" r="1.7" fill="#fff"/><path d="M9.2 16.5L7 20.5l3.3-1.4M14.8 16.5l2.2 4-3.3-1.4M12 18.5v3" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>'};
+function glyph(k){var ns="http://www.w3.org/2000/svg",s=document.createElementNS(ns,"svg");s.setAttribute("viewBox","0 0 24 24");s.innerHTML=GL[k]||GL.vee;return s}
+function dlFor(k,os){var d=DL[k];return typeof d==="string"?d:(d&&(d[os]||d.android))||""}
+function openApp(a){vib(12);if(!a[3]){copy(SUB,null,"لینک کپی شد، توی "+a[0]+" از بخش افزودن واردش کن");return}
+ var t=setTimeout(function(){copy(SUB,null,"اپ باز نشد؟ لینک کپی شد، دستی واردش کن")},1600);
+ addEventListener("blur",function bl(){clearTimeout(t);removeEventListener("blur",bl)});
+ document.addEventListener("visibilitychange",function vc(){if(document.hidden){clearTimeout(t);document.removeEventListener("visibilitychange",vc)}});
+ location.href=a[3]}
+function appRow(k,os,i){var a=A[k],r=el("div","apr"+(i===0?" rec":""));r.style.animationDelay=(i*55)+"ms";
+ var ic=el("span","api"),cc=a[2].split(",");ic.style.background="linear-gradient(140deg,"+cc[0]+","+cc[1]+")";ic.style.setProperty("--ac",cc[1]);ic.appendChild(glyph(a[1]));if(i===0)r.appendChild(el("span","bdg","پیشنهاد جینکس"));r.appendChild(ic);
+ var tx=el("div","apn"),nm=el("b","",a[0]);tx.appendChild(nm);tx.appendChild(el("small","",a[4]));r.appendChild(tx);
+ var ad=el("button","apa");ad.type="button";ad.appendChild(ico("plus"));ad.appendChild(el("span","","افزودن"));ad.onclick=function(){openApp(a)};
+ var u=dlFor(k,os);r.appendChild(ad);
+ if(u){var dl=el("a","apd");dl.href=u;dl.target="_blank";dl.rel="noopener";dl.setAttribute("aria-label","دانلود "+a[0]);dl.appendChild(ico("down"));r.appendChild(dl)}
+ return r}
+function renderApps(os,box){box.textContent="";APPS[os].forEach(function(k,i){box.appendChild(appRow(k,os,i))})}
+var ua=navigator.userAgent||"",OS=/iPhone|iPad|iPod|Macintosh.*Mobile/i.test(ua)||(/Macintosh/.test(ua)&&navigator.maxTouchPoints>1)?"ios":/Android/i.test(ua)?"android":/Windows|Macintosh|Linux/i.test(ua)?"pc":"android";
+
+var OSL=["android","ios","pc"];
+function setOS(os){OS=os;["os","os2"].forEach(function(id){var w=$(id);qa("button",w).forEach(function(b){b.classList.toggle("on",b.getAttribute("data-os")===os)});var sk=w.querySelector(".sk");if(sk)sk.style.transform="translateX("+(-OSL.indexOf(os)*100)+"%)"});renderApps(os,$("apps"));renderApps(os,$("apps2"))}
+qa("#os button,#os2 button").forEach(function(b){b.onclick=function(){vib(8);setOS(b.getAttribute("data-os"))}});setOS(OS);
+
+/* sheets */
+var openSheet=null;
+function show(id){var o=$(id);o.classList.add("show");o.setAttribute("aria-hidden","false");document.body.classList.add("lock");openSheet=o}
+function hide(){if(!openSheet)return;openSheet.classList.remove("show");openSheet.setAttribute("aria-hidden","true");document.body.classList.remove("lock");openSheet=null}
+qa(".ov").forEach(function(o){o.addEventListener("click",function(e){if(e.target===o||e.target.closest("[data-close]"))hide()})});
+addEventListener("keydown",function(e){if(e.key==="Escape")hide()});
+$("addapp").onclick=function(){show("appsheet")};
+
+/* QR */
+var qrText="",qrName="";
+function openQR(name,text){var c=$("qrc");try{QR.draw(c,text,{fg:"#0b1022"})}catch(e){toast("این کانفیگ برای QR خیلی طولانیه",1);return}qrText=text;qrName=name;$("qrt").textContent=name;try{$("qri").src=c.toDataURL("image/png")}catch(e){}show("qrsheet")}
+$("qrcopy").onclick=function(){copy(qrText,this)};
+$("qrsave").onclick=function(){var c=$("qrc"),fn="SuperJinX-"+(qrName||"qr").replace(/[^\w\u0600-\u06FF-]+/g,"_")+".png";
+ function dl(){try{var a=el("a");a.download=fn;a.href=c.toDataURL("image/png");document.body.appendChild(a);a.click();document.body.removeChild(a);toast("عکس QR ذخیره شد")}catch(e){toast("انگشتت رو روی QR نگه دار و ذخیره کن",1)}}
+ if(c.toBlob&&navigator.canShare&&window.File&&/Android|iPhone|iPad/i.test(navigator.userAgent)){c.toBlob(function(b){try{var f=new File([b],fn,{type:"image/png"});if(navigator.canShare({files:[f]})){navigator.share({files:[f],title:"Super JinX QR"}).catch(function(){});return}}catch(e){}dl()},"image/png")}else dl()};
+/* configs */
+function b64(s){try{s=s.replace(/-/g,"+").replace(/_/g,"/");while(s.length%4)s+="=";return decodeURIComponent(escape(atob(s)))}catch(e){return ""}}
+function parse(l,i){var p=(l.split("://")[0]||"").toLowerCase(),name="",tr="",sec="";
+ if(p==="vmess"){try{var j=JSON.parse(b64(l.slice(8)));name=j.ps||"";tr=j.net||"";sec=j.tls||""}catch(e){}}
+ else{var h=l.indexOf("#");if(h>-1){try{name=decodeURIComponent(l.slice(h+1))}catch(e){name=l.slice(h+1)}}
+  var m=l.match(/[?&]type=([^&#]+)/i);if(m)tr=m[1];m=l.match(/[?&]security=([^&#]+)/i);if(m)sec=m[1]}
+ if(p==="ss")p="shadowsocks";if(p==="hy2"||p==="hysteria2")p="hysteria2";
+ if(sec==="none")sec="";
+ return {link:l,name:name||("Server "+(i+1)),proto:p,tr:tr,sec:sec}}
+var CF=links.map(parse),flt="all";
+$("ccount").textContent=fa(CF.length)+" کانفیگ";
+$("copyall").querySelector("span").textContent=CF.length?"کپی همه‌ی "+fa(CF.length)+" کانفیگ":"کانفیگی نیست";
+$("copyall").onclick=function(){if(!CF.length)return;copy(links.join(NL),this,"همه‌ی کانفیگ‌ها کپی شد")};
+var protos=[];
+function buildFlt(){protos=[];CF.forEach(function(c){if(protos.indexOf(c.proto)<0)protos.push(c.proto)});var f=$("flt");f.textContent="";flt="all";if(protos.length<2){f.classList.add("hide");return}f.classList.remove("hide");["all"].concat(protos).forEach(function(p){var b=el("button",p==="all"?"on":"",p==="all"?"همه":p.toUpperCase());b.type="button";b.onclick=function(){flt=p;qa("#flt button").forEach(function(x){x.classList.toggle("on",x===b)});vib(8);renderCF()};f.appendChild(b)})}
+buildFlt();
+function renderCF(){var box=$("cfgs"),q=($("q").value||"").trim().toLowerCase(),n=0;box.textContent="";
+ CF.forEach(function(c,i){if(flt!=="all"&&c.proto!==flt)return;if(q&&c.name.toLowerCase().indexOf(q)<0&&c.proto.indexOf(q)<0)return;n++;
+  var r=el("div","cfg");r.appendChild(el("span","num",fa(i+1)));var cb=el("div","cb"),nb=el("b","",c.name);nb.dir="auto";cb.appendChild(nb);var tg=el("div","tags");
+  [c.proto,c.tr,c.sec].forEach(function(t){if(t)tg.appendChild(el("span","",String(t).toUpperCase()))});cb.appendChild(tg);r.appendChild(cb);
+  var bq=el("button","ib");bq.type="button";bq.setAttribute("aria-label","QR");bq.appendChild(ico("qr"));bq.onclick=function(){openQR(c.name,c.link)};
+  var bc=el("button","ib");bc.type="button";bc.setAttribute("aria-label","کپی");bc.appendChild(ico("copy"));bc.onclick=function(){copy(c.link,bc,"کانفیگ کپی شد")};
+  r.appendChild(bq);r.appendChild(bc);box.appendChild(r)});
+ if(!n)box.appendChild(el("div","empty",CF.length?"چیزی پیدا نشد.":"فعلاً کانفیگی برای این اشتراک نیست."))}
+$("q").addEventListener("input",renderCF);renderCF();
+/* safety net: if the page was rendered without configs, read them straight from the subscription itself */
+if(!DEMO&&!CF.length&&window.fetch){(function(){
+ function pick(t){return String(t||"").split(/\r?\n/).map(function(x){return x.trim()}).filter(function(x){return /^[a-z][a-z0-9+.-]*:\/\/\S+/i.test(x)})}
+ function apply(ls){if(!ls.length)return false;links=ls;CF=links.map(parse);
+  $("ccount").textContent=fa(CF.length)+" کانفیگ";$("copyall").querySelector("span").textContent="کپی همه‌ی "+fa(CF.length)+" کانفیگ";
+  buildFlt();renderCF();return true}
+ function get(u){return fetch(u,{cache:"no-store",credentials:"same-origin"}).then(function(r){return r.ok?r.text():""}).catch(function(){return ""})}
+ function b64(t){var x=String(t||"").trim();if(x&&x.indexOf("://")<0){try{x=decodeURIComponent(escape(atob(x.replace(/\s+/g,""))))}catch(e){}}return x}
+ var tries=["/links","/links-base64","/v2ray",""],k=0;
+ (function next(){if(k>=tries.length)return;get(SUB+tries[k++]).then(function(t){if(!apply(pick(b64(t))))next()})})();
+})()}
+
+/* clean IP: personal list, tested on the server + from the user's own internet */
+(function(){
+ var card=$("ipcard");if(!card)return;
+ var TOKEN=decodeURIComponent((SUB.split("/").pop()||"")),IPURL=SUB+"/jx-ip",MINE=null,GLOB=0,JOB=null,RES=[],MODE="both",PER=2;
+ function api(act,body){body=body||{};body.token=TOKEN;
+  return fetch("/jinx/ip/"+act,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body),cache:"no-store"})
+   .then(function(r){return r.json().catch(function(){return {}}).then(function(j){if(!r.ok)throw new Error(j.detail||"خطا، دوباره امتحان کن");return j})})}
+ function msc(ms){return ms<150?"g":ms<400?"y":"r"}
+ function seg(id,attr,cur,cb){var w=$(id),bs=qa("button",w),sk=w.querySelector(".sk");
+  function put(v){bs.forEach(function(b,i){var on=b.getAttribute(attr)===String(v);b.classList.toggle("on",on);if(on&&sk)sk.style.transform="translateX("+(-i*100)+"%)"})}
+  bs.forEach(function(b){b.onclick=function(){vib(8);var v=b.getAttribute(attr);put(v);cb(v)}});put(cur)}
+ function render(){
+  var on=MINE&&MINE.count>0,chip=$("ipchip");
+  chip.className="chip "+(on?"ok":GLOB?"warn":"hold");
+  chip.querySelector("b").textContent=on?fa(MINE.count)+" آی‌پی فعال":GLOB?"آی‌پی‌های پنل":"خاموش";
+  var l=$("iplist");l.textContent="";
+  if(on){l.classList.remove("hide");MINE.ips.slice(0,5).forEach(function(x,i){var r=el("div","ipr");r.appendChild(el("span","n",fa(i+1)));
+    var c=el("code","",x.ip+(x.port!==443?":"+x.port:""));r.appendChild(c);r.appendChild(el("span","ms "+msc(x.ms),x.ms+" ms"));l.appendChild(r)});
+   if(MINE.ips.length>5)l.appendChild(el("div","more","و "+fa(MINE.ips.length-5)+" آی‌پی دیگه، به ترتیب سرعت"));}
+  else l.classList.add("hide");
+  $("iplink").classList.toggle("hide",!(on||GLOB));$("ipurl").textContent=IPURL;
+  $("ipdel").classList.toggle("hide",!on);
+  $("ipup").querySelector("span").textContent=on?"آپلود فایل آی‌پی جدید":"آپلود فایل آی‌پی";
+  if(!on&&GLOB)$("iplist").classList.add("hide");
+ }
+ function load(){if(DEMO){render();return}api("get").then(function(j){MINE=j.mine;GLOB=j.global||0;if(MINE&&MINE.mode)MODE=MINE.mode;if(MINE&&MINE.per)PER=MINE.per;render()}).catch(function(){card.classList.add("hide")})}
+ /* step 2: rough ping from the user's own internet. A TLS error comes back fast when the IP is reachable, a timeout means it is not. */
+ function reach(ip,port){var host=ip.indexOf(":")>-1?"["+ip+"]":ip,t0=performance.now(),ac=window.AbortController?new AbortController():null;
+  return new Promise(function(res){var done=false,tm=setTimeout(function(){if(done)return;done=true;try{ac&&ac.abort()}catch(e){}res(null)},2800);
+   fetch("https://"+host+":"+port+"/cdn-cgi/trace?jx="+Math.random(),{mode:"no-cors",cache:"no-store",signal:ac?ac.signal:undefined})
+    .then(fin,fin);function fin(){if(done)return;done=true;clearTimeout(tm);res(Math.round(performance.now()-t0))}})}
+ function step(n,txt){var a=$("ipst1"),b=$("ipst2");a.className=n>1?"done":"on";b.className=n>2?"done":n===2?"on":"";if(txt)$("ipnt").textContent=txt}
+ function bar(p){$("ipbar").style.width=Math.max(0,Math.min(100,p))+"%"}
+ function open(text){show("ipsheet");$("ipin").classList.toggle("hide",!!text);$("iprun").classList.add("hide");if(text)run(text);else setTimeout(function(){$("iptext").focus()},350)}
+ function run(text){
+  if(DEMO){toast("توی حالت پیش‌نمایش کار نمی‌کنه",1);return}
+  $("ipin").classList.add("hide");$("iprun").classList.remove("hide");$("ipset").classList.add("hide");$("ipres").textContent="";$("ipnok").textContent="";
+  step(1,"در حال آماده‌سازی...");bar(2);$("ipsub").textContent="داریم آی‌پی‌ها رو تست می‌کنیم، صبر کن";
+  api("test",{text:text}).then(function(j){JOB=j.job;$("ipnt").textContent="تست "+fa(j.total)+" آی‌پی روی سرور";poll()}).catch(function(e){fail(e.message)})}
+ function fail(m){toast(m,1);$("ipnt").textContent=m;$("ipsub").textContent="یه مشکلی پیش اومد";
+  $("ipset").classList.remove("hide");$("ipsave").classList.add("hide")}
+ function poll(){api("job",{job:JOB}).then(function(s){bar(5+70*s.tested/Math.max(1,s.total));$("ipnok").textContent=fa(s.ok)+" سالم";
+   if(!s.done){setTimeout(poll,900);return}
+   if(!s.results.length){$("ipres").appendChild(el("div","em","هیچ‌کدوم از این آی‌پی‌ها به سرور ما نرسیدن. معمولاً یعنی آی‌پی‌ها مال این سرور نیستن. یه لیست دیگه امتحان کن."));
+    step(1,"آی‌پی سالمی پیدا نشد");bar(100);$("ipset").classList.remove("hide");$("ipsave").classList.add("hide");return}
+   test2(s.results.slice(0,40))}).catch(function(e){fail(e.message)})}
+ function test2(list){step(2,"پینگ از اینترنت خودت...");var i=0,out=[];
+  (function next(){if(i>=list.length){fin();return}var chunk=list.slice(i,i+6);i+=6;
+   Promise.all(chunk.map(function(x){return reach(x.ip,x.port).then(function(ms){x.my=ms;out.push(x)})})).then(function(){bar(75+25*i/list.length);next()})})();
+  function fin(){bar(100);step(3,"تست تموم شد");
+   out.sort(function(a,b){var A=a.my==null?99999:a.my,B=b.my==null?99999:b.my;return A-B||a.ms-b.ms});RES=out;
+   var box=$("ipres");box.textContent="";var good=0;
+   out.forEach(function(x,k){var lb=el("label"),cb=el("input");cb.type="checkbox";cb.checked=k<5&&x.my!=null;if(cb.checked)good++;cb.dataset.k=k;lb.appendChild(cb);
+    lb.appendChild(el("code","",x.ip+(x.port!==443?":"+x.port:"")));
+    var m=x.my==null?el("span","ms r","نرسید"):el("span","ms "+msc(x.my),x.my+" ms");m.title="پینگ از اینترنت تو";lb.appendChild(m);
+    var r=el("div","ipr");r.style.cssText="padding:0;flex:1;min-width:0";r.appendChild(lb.querySelector("code"));lb.insertBefore(r,m);box.appendChild(lb)});
+   if(!good){var f=box.querySelector("input");if(f)f.checked=true}
+   $("ipsub").textContent=fa(out.length)+" آی‌پی به سرور ما می‌رسن، بهترین‌ها انتخاب شدن";
+   $("ipset").classList.remove("hide");$("ipsave").classList.remove("hide");
+   seg("ipmode","data-m",MODE,function(v){MODE=v});seg("ipper","data-p",PER,function(v){PER=+v})}}
+ $("ipsave").onclick=function(){var pick=qa("#ipres input").filter(function(c){return c.checked}).map(function(c){var x=RES[+c.dataset.k];return {ip:x.ip,port:x.port}});
+  if(!pick.length){toast("حداقل یه آی‌پی انتخاب کن",1);return}
+  var b=this;b.disabled=true;api("save",{ips:pick,mode:MODE,per:PER}).then(function(j){b.disabled=false;MINE=j.mine;render();vib(20);
+   if(typeof hide==="function")hide();toast("کانفیگ‌های آی‌پی ساخته شد");copy(IPURL,null,"لینک اشتراک آی‌پی کپی شد")}).catch(function(e){b.disabled=false;toast(e.message,1)})};
+ $("ipagain").onclick=function(){$("iprun").classList.add("hide");$("ipin").classList.remove("hide");$("ipsub").textContent="آی‌پی‌ها رو بده، بقیه‌اش با ما"};
+ $("ipgo").onclick=function(){var t=$("iptext").value.trim();if(!t){toast("چند تا آی‌پی بنویس",1);return}run(t)};
+ $("ippaste").onclick=function(){open("")};
+ $("ipfile").onchange=function(){var fs=Array.prototype.slice.call(this.files||[]).slice(0,10),inp=this;if(!fs.length)return;
+  var big=fs.some(function(f){return f.size>1048576});if(big){toast("فایل خیلی بزرگه (حداکثر ۱ مگابایت)",1);inp.value="";return}
+  Promise.all(fs.map(function(f){return new Promise(function(r){var rd=new FileReader();rd.onload=function(){r(String(rd.result||""))};rd.onerror=function(){r("")};rd.readAsText(f)})}))
+   .then(function(ts){inp.value="";var t=ts.join("\n");if(!t.trim()){toast("فایل خالیه",1);return}open(t)})};
+ $("ipdel").onclick=function(){var b=this;if(b.dataset.c!=="1"){b.dataset.c="1";b.querySelector("span").textContent="مطمئنی؟";setTimeout(function(){b.dataset.c="";b.querySelector("span").textContent="خاموش کن"},2500);return}
+  api("clear").then(function(j){MINE=j.mine;render();toast("آی‌پی تمیز خاموش شد")}).catch(function(e){toast(e.message,1)})};
+ $("ipcopy").onclick=function(){copy(IPURL,this,"لینک اشتراک آی‌پی کپی شد")};
+ $("ipqr").onclick=function(){openQR("اشتراک با آی‌پی",IPURL)};
+ load();
+})();
+
+/* news bar: typewriter */
+(function(){var w=$("nw"),ds=$("nds"),box=$("news");if(!w)return;
+ var N=[[["","سرورهای پرسرعت "],["b","Super JinX"],["","، همیشه آنلاین و پایدار"]]];
+ if(CF.length)N.push([["b",fa(CF.length)+" سرور اختصاصی"],[""," همین الان برای تو آماده‌ست"]]);
+ if(days>=0)N.push(days<=7?[["b",fa(days)+" روز"],[""," از اشتراکت مونده، یادت نره تمدید کنی"]]:[["b",fa(days)+" روز"],[""," از اشتراکت باقی مونده، با خیال راحت وصل شو"]]);
+ N.push([["","آپدیت‌ها، آموزش‌ها و سرورهای جدید "],["b","اول توی کانال"],[""," منتشر میشه"]]);
+ N.push([["","عضو کانال شو تا از "],["b","هیچ خبری"],[""," جا نمونی"]]);
+ var typ=el("div","typ"),dd=el("span","dots");for(var q=0;q<3;q++)dd.appendChild(el("i"));typ.appendChild(dd);typ.appendChild(document.createTextNode("در حال نوشتن"));w.appendChild(typ);
+ var tx=el("div","ntx");w.appendChild(tx);var bars=[];
+ N.forEach(function(n,i){var bi=el("i");bi.appendChild(el("b"));bi.setAttribute("role","button");bi.setAttribute("aria-label","خبر "+(i+1));bi.addEventListener("click",function(e){e.preventDefault();e.stopPropagation();if(i!==k){vib(8);show(i)}});ds.appendChild(bi);bars.push(bi)});
+ var k=-1,T=4200,hov=false,tm=null,tt=null,run=0;
+ function mark(){bars.forEach(function(b,i){b.classList.remove("cur");b.classList.toggle("done",i<k)});void bars[k].offsetWidth;bars[k].classList.add("cur")}
+ function type(n,id){tx.textContent="";var segs=N[n],si=0,ci=0,node=null,car=el("span","car");tx.appendChild(car);
+  if(RM){segs.forEach(function(p){tx.insertBefore(p[0]?el(p[0],"",p[1]):document.createTextNode(p[1]),car)});done();return}
+  function step(){if(id!==run)return;if(si>=segs.length){done();return}var p=segs[si];if(!node){node=p[0]?el(p[0]):document.createTextNode("");tx.insertBefore(node,car)}
+   var chunk=p[1].charAt(ci);ci++;if(p[0])node.textContent+=chunk;else node.data+=chunk;
+   if(ci>=p[1].length){si++;ci=0;node=null}tt=setTimeout(step,chunk===" "?18:26)}
+  step();function done(){if(id!==run)return;mark();sch()}}
+ function show(n){clearTimeout(tm);clearTimeout(tt);var id=++run;k=n;bars.forEach(function(b,i){b.classList.remove("cur");b.classList.toggle("done",i<k)});
+  tx.classList.add("fade");setTimeout(function(){if(id!==run)return;tx.textContent="";tx.classList.remove("fade");
+   if(RM){type(n,id);return}typ.classList.add("on");setTimeout(function(){if(id!==run)return;typ.classList.remove("on");type(n,id)},650)},250)}
+ function sch(){clearTimeout(tm);tm=setTimeout(tick,T)}
+ function tick(){if(document.hidden||hov){tm=setTimeout(tick,400);return}show((k+1)%N.length)}
+ box.addEventListener("mouseenter",function(){hov=true});box.addEventListener("mouseleave",function(){hov=false});
+ setTimeout(function(){show(0)},RM?0:1000)})();
+/* nav */
+var ORDER=["home","con","srv","ch"],pill=$("pill"),cur="home";
+function go(v,noScroll){if(ORDER.indexOf(v)<0)v="home";if(v===cur&&!noScroll){scrollTo({top:0,behavior:"smooth"});return}var dir=ORDER.indexOf(v)>ORDER.indexOf(cur)?"fl":"fr";cur=v;
+ qa(".view").forEach(function(s){s.classList.remove("fl","fr");var on=s.id==="v-"+v;s.classList.toggle("on",on);if(on)s.classList.add(dir)});
+ qa("#nav button").forEach(function(b){b.classList.toggle("on",b.getAttribute("data-v")===v)});
+ placePill();
+ if(v==="ch"){var d=$("chdot");if(d)d.classList.add("hide");try{localStorage.setItem("jx_ch","1")}catch(e){}}
+ if(!noScroll)scrollTo({top:0,behavior:RM?"auto":"smooth"});vib(10)}
+function placePill(){var b=document.querySelector('#nav button[data-v="'+cur+'"]');if(!b||!b.offsetWidth)return;pill.style.width=b.offsetWidth+"px";pill.style.transform="translateX("+b.offsetLeft+"px)";if(!pill.classList.contains("rdy"))requestAnimationFrame(function(){pill.classList.add("rdy")})}
+qa("#nav button[data-v]").forEach(function(b){b.addEventListener("click",function(e){e.preventDefault();go(b.getAttribute("data-v"))})});
+addEventListener("resize",placePill);if(document.fonts&&document.fonts.ready)document.fonts.ready.then(placePill);setTimeout(placePill,0);setTimeout(placePill,400);
+qa("[data-go]").forEach(function(b){b.addEventListener("click",function(){go(b.getAttribute("data-go"))})});
+try{if(localStorage.getItem("jx_ch")==="1")$("chdot").classList.add("hide")}catch(e){}
+$("logo").onclick=function(){vib(10);show("thsheet")};
+
+/* share */
+$("share").onclick=function(){var txt="من از اشتراک Super JinX استفاده می‌کنم، کانالشون اینه:";
+ if(navigator.share)navigator.share({title:"Super JinX",text:txt,url:CHANNEL}).catch(function(){});else copy(txt+" "+CHANNEL,this,"لینک کانال کپی شد، برای دوستت بفرست")};
+
+/* ping */
+var busy=false;
+function ping(){if(busy)return;if(!/^https?:$/.test(location.protocol)){toast("تست سرعت فقط روی خود پنل کار می‌کنه",1);return}busy=true;var rb=$("repin"),v=$("pingv"),q=$("pingq"),sg=$("sig");rb.classList.add("busy");sg.classList.add("run");qa("i",sg).forEach(function(x){x.classList.remove("on")});q.textContent="در حال تست";v.textContent="...";v.style.color="";
+ var best=1e9,k=0;
+ function one(){var t=performance.now(),ctl=window.AbortController?new AbortController():null,to=setTimeout(function(){if(ctl)ctl.abort()},4000);
+  fetch(location.origin+"/healthz?t="+Date.now()+k,{cache:"no-store",signal:ctl?ctl.signal:undefined}).then(function(){var d=performance.now()-t;if(d<best)best=d}).catch(function(){}).then(function(){clearTimeout(to);k++;if(k<3)setTimeout(one,120);else fin()})}
+ function fin(){busy=false;rb.classList.remove("busy");sg.classList.remove("run");
+  if(best>=1e9){v.textContent="--";q.textContent="بدون پاسخ";sg.style.setProperty("--pc","#ff5a5f");v.style.color="#ff5a5f";qa("i",sg)[0].classList.add("on");return}
+  var ms=Math.round(best),c=ms<250?getComputedStyle(document.documentElement).getPropertyValue("--ac").trim():ms<600?"#ffc53d":"#ff5a5f",n=ms<150?4:ms<300?3:ms<600?2:1;
+  v.textContent=ms+" ms";v.style.color=c;sg.style.setProperty("--pc",c);qa("i",sg).forEach(function(x,i){if(i<n)x.classList.add("on")});q.textContent=ms<250?"عالی":ms<600?"خوب":"کند"}
+ one()}
+$("repin").onclick=ping;if(/^https?:$/.test(location.protocol))setTimeout(ping,900);else{$("pingv").textContent="--";$("pingq").textContent="فقط روی پنل";$("sig").classList.remove("run")}
+
+/* spotlight (desktop) */
+(function(){var sp=$("spot");if(!sp||RM||!window.matchMedia||!matchMedia("(hover:hover) and (min-width:960px)").matches)return;var x=0,y=0,raf=0;
+ addEventListener("pointermove",function(e){x=e.clientX;y=e.clientY;if(!raf)raf=requestAnimationFrame(function(){raf=0;sp.style.transform="translate("+x+"px,"+y+"px)"})},{passive:true})})();
+
+/* swipe tabs (mobile) */
+(function(){var sx=0,sy=0,ok=false,t0=0,app=document.querySelector(".app");
+ app.addEventListener("touchstart",function(e){if(innerWidth>=960||openSheet||e.touches.length>1){ok=false;return}var t=e.target;ok=!(t.closest&&t.closest(".flt,.seg,.news,input,.subbox"));sx=e.touches[0].clientX;sy=e.touches[0].clientY;t0=Date.now()},{passive:true});
+ app.addEventListener("touchend",function(e){if(!ok)return;ok=false;var t=e.changedTouches[0],dx=t.clientX-sx,dy=t.clientY-sy;if(Date.now()-t0>650||Math.abs(dx)<70||Math.abs(dx)<Math.abs(dy)*1.6)return;var i=ORDER.indexOf(cur)+(dx>0?1:-1);if(i>=0&&i<ORDER.length)go(ORDER[i])},{passive:true})})();
+/* card spotlight (desktop) */
+(function(){if(RM||!window.matchMedia||!matchMedia("(hover:hover) and (min-width:960px)").matches)return;
+ qa(".card").forEach(function(c){if(c.classList.contains("sheet"))return;c.insertBefore(el("span","sp"),c.firstChild);c.addEventListener("pointermove",function(e){var r=c.getBoundingClientRect();c.style.setProperty("--mx",(e.clientX-r.left)+"px");c.style.setProperty("--my",(e.clientY-r.top)+"px")},{passive:true})})})();
+/* gauge modes */
+(function(){var g=$("gauge"),r=$("remain"),of=$("ofTotal"),lb=g.querySelector(".inner small"),pc=$("pcv"),mode=0;if(!limit)return;
+ function put(v,u){r.textContent="";r.appendChild(document.createTextNode(v));if(u)r.appendChild(el("em","",u))}
+ function sp(b){var x=sz(b).split(" ");return x}
+ var M=[function(){lb.textContent="حجم باقی‌مانده";var x=sp(rem);put(x[0],x[1]);of.textContent="از "+unitFa(sz(limit))},
+  function(){lb.textContent="حجم مصرف‌شده";var x=sp(used);put(x[0],x[1]);of.textContent="از "+unitFa(sz(limit))},
+  function(){lb.textContent="درصد باقی‌مانده";put(String(Math.round(ratio*100)),"%");of.textContent="روی ضربه بزن"}];
+ g.addEventListener("click",function(){vib(10);g.classList.add("sw");setTimeout(function(){mode=(mode+1)%M.length;M[mode]();g.classList.remove("sw")},220)});
+ g.title="برای تغییر نمایش ضربه بزن"})();
+/* tilt: mouse on desktop, gyro on phone */
+(function(){var g=$("gauge");if(RM)return;var tx=0,ty=0,raf=0;function ap(){raf=0;g.style.transform="perspective(800px) rotateX("+ty.toFixed(1)+"deg) rotateY("+tx.toFixed(1)+"deg)"}
+ function set(x,y){tx=Math.max(-12,Math.min(12,x));ty=Math.max(-12,Math.min(12,y));if(!raf)raf=requestAnimationFrame(ap)}
+ if(window.matchMedia&&matchMedia("(hover:hover)").matches){g.addEventListener("pointermove",function(e){var b=g.getBoundingClientRect();set((e.clientX-b.left-b.width/2)/b.width*24,-(e.clientY-b.top-b.height/2)/b.height*24)});g.addEventListener("pointerleave",function(){set(0,0)})}
+ else if(window.DeviceOrientationEvent&&typeof DeviceOrientationEvent.requestPermission!=="function"){var b0=null,g0=null;addEventListener("deviceorientation",function(e){if(e.beta==null||cur!=="home")return;if(b0===null){b0=e.beta;g0=e.gamma}set((e.gamma-g0)*.5,-(e.beta-b0)*.4)},{passive:true})}})();
+/* dynamic island */
+(function(){var b=$("tgx");if(!b)return;
+ var ub=$("tgub"),today=new Date().toDateString(),rd="";try{rd=localStorage.getItem("jx_rd")||""}catch(e){}
+ if(rd===today&&ub)ub.classList.add("hide");
+ b.addEventListener("click",function(e){e.preventDefault();if(ub)ub.classList.add("hide");try{localStorage.setItem("jx_rd",today)}catch(x){}show("chsheet")});
+ b.addEventListener("pointerdown",function(){b.classList.remove("go");void b.offsetWidth;b.classList.add("go");vib(14);setTimeout(function(){b.classList.remove("go")},900)});
+ var M=[["پست جدید در کانال","عضو شو، جا نمونی"],["آپدیت سرورها","اول توی کانال میاد"],["آموزش اتصال","قدم‌به‌قدم توی کانال"]],k=0,S=$("islS"),B=$("islB");
+ if(RM)return;
+ function cyc(){if(document.hidden){setTimeout(cyc,2000);return}var x=M[k%M.length];k++;S.textContent=x[0];B.textContent=x[1];b.classList.add("ex");setTimeout(function(){b.classList.remove("ex");setTimeout(cyc,6500)},3400)}
+ setTimeout(cyc,3200)})();
+/* themes */
+(function(){var TH=[["lime","نئون لیمویی","#c6ff3d","#0e1013","#14171b","rgba(198,255,61,.22)","#3df5c8"],["gold","طلایی سلطنتی","#f5c451","#120f0a","#1a160f","rgba(245,196,81,.26)","#ff9a4d"],["violet","بنفش کهکشانی","#c084fc","#100d24","#17132f","rgba(192,132,252,.28)","#f472b6"],["ice","یخی فیروزه‌ای","#5eead4","#0b1318","#101b21","rgba(94,234,212,.24)","#38bdf8"]];
+ var box=$("ths"),qd=$("qdots"),curT=document.documentElement.getAttribute("data-theme")||"lime",cards=[],dots=[];
+ function apply(t){if(t==="lime")document.documentElement.removeAttribute("data-theme");else document.documentElement.setAttribute("data-theme",t);repaintTicks()}
+ function pick(t,x,y){if(t[0]===curT)return;curT=t[0];vib(14);try{localStorage.setItem("jx_theme",t[0])}catch(e){}
+  cards.forEach(function(c){c.classList.toggle("on",c._t===t[0])});dots.forEach(function(d){d.classList.toggle("on",d._t===t[0])});
+  var de=document.documentElement;de.style.setProperty("--vx",(x||innerWidth/2)+"px");de.style.setProperty("--vy",(y||0)+"px");
+  if(document.startViewTransition&&!RM){try{document.startViewTransition(function(){apply(t[0])})}catch(e){apply(t[0])}}else apply(t[0]);
+  toast("تم «"+t[1]+"» فعال شد")}
+ TH.forEach(function(t){var b=el("button","thc"+(t[0]===curT?" on":""));b.type="button";b._t=t[0];b.style.setProperty("--ta",t[2]);b.style.setProperty("--tb",t[3]);b.style.setProperty("--tb2",t[4]);b.style.setProperty("--tg2",t[5]);
+  var pv=el("span","thp");pv.appendChild(el("span","rg"));pv.appendChild(el("span","pc","62%"));pv.appendChild(el("b"));pv.appendChild(el("em"));pv.appendChild(el("u"));b.appendChild(pv);
+  var tn=el("span","tn");tn.appendChild(el("span","",t[1]));var sw=el("small");[t[2],t[6]].forEach(function(c){var i=el("i");i.style.background=c;sw.appendChild(i)});tn.appendChild(sw);b.appendChild(tn);
+  var ck=el("span","ck");ck.appendChild(ico("check"));b.appendChild(ck);
+  b.addEventListener("click",function(e){pick(t,e.clientX,e.clientY)});box.appendChild(b);cards.push(b);
+  if(qd){var d=el("button",t[0]===curT?"on":"");d.type="button";d._t=t[0];d.style.setProperty("--d","linear-gradient(135deg,"+t[2]+","+t[6]+")");d.setAttribute("aria-label",t[1]);d.addEventListener("click",function(e){pick(t,e.clientX,e.clientY)});qd.appendChild(d);dots.push(d)}})})();
+/* ===== smart system doctor + settings ===== */
+var DOC={fixes:0,errs:0,fps:60,last:Date.now(),log:[]};
+function lsGet(k){try{return localStorage.getItem(k)}catch(e){return null}}
+function lsSet(k,v){try{if(v===null)localStorage.removeItem(k);else localStorage.setItem(k,v)}catch(e){}}
+function perfMode(){return lsGet("jx_perf")||"auto"}
+function applyPerf(m,silent){var de=document.documentElement;de.classList.remove("lite","noanim");if(m==="lite")de.classList.add("lite");else if(m==="off")de.classList.add("lite","noanim");else if(m==="auto"&&LITE0)de.classList.add("lite")}
+var LITE0=document.documentElement.classList.contains("lite");
+function docNote(t,kind){DOC.log.unshift([t,kind||"fix",Date.now()]);if(DOC.log.length>8)DOC.log.pop();renderDoc()}
+function measureFps(ms,cb){var n=0,t0=0;function f(t){if(!t0)t0=t;n++;if(t-t0<ms)requestAnimationFrame(f);else cb(Math.round(n*1000/(t-t0)))}requestAnimationFrame(f)}
+/* individual checks: return null if ok, or message after fixing */
+var CHECKS=[
+ ["اطلاعات اشتراک",function(){if(DEMO)return ["حالت پیش‌نمایش (روی پنل اطلاعات واقعی میاد)","inf"];return null}],
+ ["عقربه‌ی حجم",function(){var g=$("ticks");if(!g||g.children.length!==72){buildTicks();return ["عقربه دوباره ساخته شد","fix"]}return null}],
+ ["لیست اپ‌ها",function(){var a=$("apps");if(a&&!a.children.length){renderApps(OS,a);renderApps(OS,$("apps2"));return ["لیست اپ‌ها دوباره ساخته شد","fix"]}return null}],
+ ["لیست سرورها",function(){var c=$("cfgs");if(c&&!c.children.length){renderCF();return ["لیست سرورها دوباره ساخته شد","fix"]}return null}],
+ ["منوی پایین",function(){var b=document.querySelector('#nav button.on'),p=$("pill");if(b&&p&&b.offsetWidth){var d=Math.abs(b.getBoundingClientRect().left-p.getBoundingClientRect().left);if(d>3){placePill();return ["جای منوی پایین درست شد","fix"]}}return null}],
+ ["قفل صفحه",function(){if(document.body.classList.contains("lock")&&!document.querySelector(".ov.show")){document.body.classList.remove("lock");return ["اسکرول صفحه آزاد شد","fix"]}return null}],
+ ["تنظیمات ذخیره‌شده",function(){var t=lsGet("jx_theme"),ok=["lime","gold","violet","ice"];if(t&&ok.indexOf(t)<0){lsSet("jx_theme",null);return ["تنظیم خراب تم پاک شد","fix"]}var pm=lsGet("jx_perf");if(pm&&["auto","full","lite","off"].indexOf(pm)<0){lsSet("jx_perf",null);return ["تنظیم خراب سرعت پاک شد","fix"]}return null}]];
+function runChecks(silent){var out=[];CHECKS.forEach(function(c){var r=null;try{r=c[1]()}catch(e){r=["خطا در "+c[0]+" مهار شد","fix"]}if(r){out.push([c[0]].concat(r));if(r[1]==="fix"){DOC.fixes++;if(!silent)0;docNote(r[0],"fix")}}});DOC.last=Date.now();renderDoc();return out}
+/* error catcher */
+addEventListener("error",function(e){DOC.errs++;if(lsGet("jx_auto")!=="0"){setTimeout(function(){runChecks(true)},300);docNote("یه خطا شناسایی و مهار شد","fix");DOC.fixes++}},true);
+addEventListener("unhandledrejection",function(){DOC.errs++});
+/* background guard */
+(function(){if(lsGet("jx_auto")==="0")return;
+ setInterval(function(){if(!document.hidden&&lsGet("jx_auto")!=="0")runChecks(true)},6000);
+ function fpsGuard(){if(document.hidden||lsGet("jx_auto")==="0"||perfMode()!=="auto")return;measureFps(1500,function(f){DOC.fps=f;renderDoc();var de=document.documentElement;
+  if(f<38&&!de.classList.contains("lite")){de.classList.add("lite");DOC.fixes++;docNote("صفحه کند بود، حالت سبک خودکار فعال شد","fix");toast("برای روون‌تر شدن، حالت سبک فعال شد")}
+  else if(f<22&&!de.classList.contains("noanim")){de.classList.add("noanim");DOC.fixes++;docNote("انیمیشن‌های اضافه خاموش شد","fix")}})}
+ setTimeout(fpsGuard,3500);setInterval(fpsGuard,30000)})();
+/* settings UI */
+function renderDoc(){var st=$("docst");if(!st)return;var bad=DOC.log.length&&Date.now()-DOC.log[0][2]<4000&&DOC.log[0][1]==="fix";
+ $("mfps").textContent=DOC.fps+" fps";$("mfix").textContent=fa(DOC.fixes);var s=Math.round((Date.now()-DOC.last)/1000);$("mlast").textContent=s<5?"همین الان":fa(s)+" ثانیه پیش";
+ st.textContent=bad?"یه مشکل پیدا و درست شد":"سیستم سالمه";$("docsub").textContent=lsGet("jx_auto")==="0"?"تعمیر خودکار خاموشه":"دستیار هوشمند داره مراقبت می‌کنه";
+ var lg=$("doclog");lg.textContent="";if(!DOC.log.length){lg.appendChild(el("div","dl ok","تا الان هیچ مشکلی پیش نیومده"));return}
+ DOC.log.slice(0,4).forEach(function(x){var d=el("div","dl "+(x[1]==="inf"?"inf":"ok"));d.appendChild(ico(x[1]==="inf"?"info":"check"));d.appendChild(el("span","",x[0]));lg.appendChild(d)})}
+(function(){var run=$("docrun");if(!run)return;var ring=$("docarc"),pct=$("docpct"),steps=$("docsteps");
+ function setP(p){ring.style.strokeDashoffset=String(302*(1-p/100));pct.textContent=fa(Math.round(p))}
+ run.addEventListener("click",function(){if(run.disabled)return;run.disabled=true;vib(12);var L=["اطلاعات اشتراک","بخش‌های صفحه","روونی و سرعت نمایش","حافظه و تنظیمات","اتصال به سرور"];steps.textContent="";steps.classList.remove("hide");$("docring").classList.add("scan");var rows=L.map(function(t){var d=el("div","ds");d.appendChild(el("i"));d.appendChild(el("span","",t));d.appendChild(el("em","","در انتظار"));steps.appendChild(d);return d});
+  var i=0,res=[];setP(0);
+  function done(k,msg,kind){var r=rows[k];r.classList.add(kind==="fix"?"fx":kind==="bad"?"bd":"ok");r.querySelector("em").textContent=msg;setP((k+1)/L.length*100)}
+  function nx(){if(i>=L.length){fin();return}var k=i++;rows[k].classList.add("on");rows[k].querySelector("em").textContent="در حال بررسی";
+   setTimeout(function(){
+    if(k===0){done(k,DEMO?"پیش‌نمایش":"سالم",DEMO?"inf":"ok");nx()}
+    else if(k===1){var o=runChecks(false).filter(function(x){return x[2]==="fix"});done(k,o.length?(fa(o.length)+" مورد تعمیر شد"):"سالم",o.length?"fix":"ok");nx()}
+    else if(k===2){measureFps(1000,function(f){DOC.fps=f;var de=document.documentElement;if(f<38&&perfMode()==="auto"&&!de.classList.contains("lite")){de.classList.add("lite");DOC.fixes++;docNote("حالت سبک برای روونی فعال شد","fix");done(k,"حالت سبک فعال شد","fix")}else done(k,f+" fps","ok");nx()})}
+    else if(k===3){var c=0;try{localStorage.setItem("jx_t","1");localStorage.removeItem("jx_t")}catch(e){c=1}done(k,c?"حافظه در دسترس نیست":"سالم",c?"inf":"ok");nx()}
+    else{if(!/^https?:$/.test(location.protocol)){done(k,"فقط روی پنل","inf");nx();return}var t=performance.now();fetch(location.origin+"/healthz?d="+Date.now(),{cache:"no-store"}).then(function(){done(k,Math.round(performance.now()-t)+" ms","ok")},function(){done(k,"جواب نداد","bad")}).then(nx)}
+   },420)}
+  function fin(){run.disabled=false;$("docring").classList.remove("scan");DOC.last=Date.now();renderDoc();var bad=steps.querySelector(".bd");toast(bad?"بررسی تموم شد، اتصال به سرور مشکل داره":"بررسی تموم شد، همه‌چیز سالمه",!!bad)}
+  nx()});
+ function tog(id,key,def,fn){var t=$(id);if(!t)return;var on=(lsGet(key)||def)==="1";t.classList.toggle("on",on);t.setAttribute("aria-checked",on);t.addEventListener("click",function(){on=!on;t.classList.toggle("on",on);t.setAttribute("aria-checked",on);lsSet(key,on?"1":"0");touched=true;vib(10);if(fn)fn(on)})}
+ tog("tAuto","jx_auto","1",function(on){renderDoc();toast(on?"تعمیر خودکار روشن شد":"تعمیر خودکار خاموش شد")});
+ tog("tVib","jx_vib","1");
+ var pm=perfMode();qa("#perf button").forEach(function(b){b.classList.toggle("on",b.getAttribute("data-p")===pm);b.addEventListener("click",function(){var m=b.getAttribute("data-p");lsSet("jx_perf",m);qa("#perf button").forEach(function(x){x.classList.toggle("on",x===b)});applyPerf(m);vib(10);toast(m==="auto"?"حالت اجرا: خودکار":m==="full"?"همه‌ی جلوه‌ها روشن شد":m==="lite"?"حالت سبک فعال شد":"انیمیشن‌ها خاموش شد")})});
+ var po=$("perf");if(po){var sk=po.querySelector(".sk");var upd=function(){var b=po.querySelector("button.on");if(b&&sk){sk.style.width=b.offsetWidth+"px";sk.style.transform="translateX("+(b.offsetLeft-4)+"px)"}};qa("#perf button").forEach(function(b){b.addEventListener("click",function(){setTimeout(upd,0)})});po._upd=upd}
+ $("opentheme").addEventListener("click",function(){hide();setTimeout(function(){show("thsheet")},260)});
+ $("resetall").addEventListener("click",function(){["jx_theme","jx_perf","jx_auto","jx_vib","jx_rd","jx_ch","jx_joined"].forEach(function(k){lsSet(k,null)});toast("همه‌ی تنظیمات بازنشانی شد");setTimeout(function(){location.reload()},700)});
+ function openSet(){vib(12);show("setsheet");var nz2=$("navset");if(nz2)nz2.classList.add("seen");renderDoc();setTimeout(function(){var po=$("perf");if(po&&po._upd)po._upd()},30)}
+ var ns=$("navset");if(ns)ns.addEventListener("click",openSet);var ds=$("deskset");if(ds)ds.addEventListener("click",openSet);
+ setInterval(function(){if(document.querySelector("#setsheet.show"))renderDoc()},2000)})();
+applyPerf(perfMode(),true);
+/* ===== channel join celebration ===== */
+(function(){var JK="jx_jt";
+ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a.ch-link");if(a){try{sessionStorage.setItem(JK,String(Date.now()))}catch(x){}}},true);
+ document.addEventListener("visibilitychange",function(){if(document.hidden)return;var t=0;try{t=+sessionStorage.getItem(JK)||0;sessionStorage.removeItem(JK)}catch(x){}if(t&&Date.now()-t>1500&&Date.now()-t<600000&&lsGet("jx_joined")!=="1"){lsSet("jx_joined","1");hide();setTimeout(celebrate,250)}});
+ function celebrate(){show("joinok");confetti();vib(30)}
+ function confetti(){if(RM)return;var c=document.createElement("canvas");c.className="cfx";document.body.appendChild(c);var x=c.getContext("2d"),w=c.width=innerWidth,h=c.height=innerHeight,P=[],cols=[getComputedStyle(document.documentElement).getPropertyValue("--ac").trim()||"#f5c451","#2aabee","#ffffff","#f472b6","#5eead4"];
+  for(var i=0;i<110;i++)P.push({x:w/2,y:h*.42,vx:(Math.random()-.5)*14,vy:-Math.random()*13-4,r:Math.random()*6+3,c:cols[i%cols.length],a:Math.random()*6,va:(Math.random()-.5)*.4});
+  var t0=performance.now();(function f(t){var k=(t-t0)/1700;x.clearRect(0,0,w,h);P.forEach(function(p){p.vy+=.38;p.vx*=.985;p.x+=p.vx;p.y+=p.vy;p.a+=p.va;x.save();x.globalAlpha=Math.max(0,1-k);x.translate(p.x,p.y);x.rotate(p.a);x.fillStyle=p.c;x.fillRect(-p.r/2,-p.r/4,p.r,p.r/2);x.restore()});if(k<1)requestAnimationFrame(f);else c.remove()})(t0)}
+ var jb=$("joinbtn");if(jb)jb.addEventListener("click",function(){hide()});
+ window.jxCelebrate=celebrate})();
+/* sticky header */
+(function(){var t=document.querySelector(".top"),on=false,raf=0;function ck(){raf=0;var s=scrollY>8;if(s!==on){on=s;t.classList.toggle("sc",s)}}addEventListener("scroll",function(){if(!raf)raf=requestAnimationFrame(ck)},{passive:true});ck()})();
+/* ripple */
+document.addEventListener("pointerdown",function(e){var b=e.target.closest&&e.target.closest(".btn,.ib,.apx");if(!b||RM)return;var r=b.getBoundingClientRect(),s=Math.max(r.width,r.height),i=el("span","rip");
+ i.style.cssText="width:"+s+"px;height:"+s+"px;left:"+(e.clientX-r.left-s/2)+"px;top:"+(e.clientY-r.top-s/2)+"px";b.appendChild(i);setTimeout(function(){if(i.parentNode)i.parentNode.removeChild(i)},600)},{passive:true});
+})();
+
+</script>
+<!-- {% endraw %} -->
+</body>
+</html>
